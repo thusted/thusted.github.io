@@ -9,7 +9,7 @@ import WeatherDashboard from "../images/weatherDashboard.png";
 import CodeQuiz from "../images/codeQuiz.png";
 
 // Importing components
-import Card from "../components/Card";
+import Project from "../components/Project";
 
 class WebDev extends Component {
   render() {
@@ -23,13 +23,13 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
-            <Card imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
+            <Project imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
             <br/>
 
-            <Card imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
+            <Project imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
             <br/>
             
-            <Card imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
+            <Project imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
             <br/>
           
             <div class="row">

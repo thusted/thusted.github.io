@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Card ({imgSrc, title, description, link}) {
+function Project ({imgSrc, title, description, link}) {
   return (
     <div class="row">
       <div class="col s12">
@@ -26,4 +26,4 @@ function Card ({imgSrc, title, description, link}) {
   )
 }
 
-export default Card;
+export default Project;
