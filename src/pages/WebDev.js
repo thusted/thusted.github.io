@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class Projects extends Component {
+class WebDev extends Component {
   render() {
     return (
       <div>
-        projects
+        web dev
       </div>
     );
   }
 }
 
-export default Projects;
+export default WebDev;

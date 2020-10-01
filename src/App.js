@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Projects from './pages/Projects';
+import Projects from './pages/WebDev';
 
 function App() {
   return (
