@@ -5,9 +5,9 @@ import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
-import About from './pages/About';
-import Discover from './pages/Discover';
-import Search from './pages/Search';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
-          <Route exact path="/search" component={Search} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projects" component={Projects} />
         </Wrapper>
       </div>
     </Router>

@@ -18,7 +18,7 @@ class Navbar extends Component {
               <Link
                 to="/"
                 className={
-                  window.location.pathname === "/" || window.location.pathname === "/about"
+                  window.location.pathname === "/" || window.location.pathname === "/home"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -28,23 +28,25 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <Link
-                to="/discover"
-                className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+                to="/contact"
+                className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
               >
                 Contact
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/search"
-                className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+                to="/projects"
+                className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
               >
                 Projects
               </Link>
             </li>
             
             {/* Dropdown Trigger */}
-            {/* <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Projects<i class="material-icons right">arrow_drop_down</i></a></li> */}
+            {/* <li>
+              <a class="dropdown-trigger" href="#!" data-target="dropdown">Projects<i class="material-icons right">arrow_drop_down</i></a>
+            </li> */}
           </ul>
         </div>
       </nav>
