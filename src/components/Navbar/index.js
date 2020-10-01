@@ -46,6 +46,10 @@ class Navbar extends Component {
             {/* Dropdown Trigger */}
             {/* <li>
               <a class="dropdown-trigger" href="#!" data-target="dropdown">Projects<i class="material-icons right">arrow_drop_down</i></a>
+              <ul id="dropdown1" class="dropdown-content">
+                <li><a href="webDev.html">Web Development</a></li>
+                <li><a href="interactiveArt.html">Interactive Art</a></li>
+              </ul>
             </li> */}
           </ul>
         </div>
