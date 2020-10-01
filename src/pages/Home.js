@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import M from "materialize-css";
-import "./home.css";
+import "./pageStyle.css";
 import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
