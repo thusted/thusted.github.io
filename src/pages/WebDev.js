@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+
+// Importing images
 import Alertify from "../images/alertify.png";
 import Burger from "../images/burgerApp.png";
 import JobSearch from "../images/jobSearch.png";
 import EmployeeSummary from "../images/employeeSummary.png";
 import WeatherDashboard from "../images/weatherDashboard.png";
 import CodeQuiz from "../images/codeQuiz.png";
+
+// Importing components
 import Card from "../components/Card";
 
 class WebDev extends Component {
@@ -24,22 +28,8 @@ class WebDev extends Component {
 
             <Card imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
             <br/>
-          
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={JobSearch} alt="jobSearch"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Software Developers Job Search</b> is an application designed for developers out of school who are looking for jobs.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="assets/projects/jobSearch.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+            <Card imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
             <br/>
           
             <div class="row">
