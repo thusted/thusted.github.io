@@ -12,6 +12,14 @@ class Contact extends Component {
     M.AutoInit();
   }
 
+  composeEmail(e) {
+    e.preventDefault();
+    let name = document.getElementById("nameInput").value;
+    let body = document.getElementById("msgInput").value;
+    const msg = `${body}%0d%0a%0d%0aRegards, ${name}`;
+    window.open(`mailto:tiana.husted@gmail.com?body=${msg}`);
+  }
+
   render() {
     return (
       <div>
@@ -37,7 +45,7 @@ class Contact extends Component {
                   <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
                 </div>
                 <br/>
-                <input class="btn btn-primary" id="emailSubmit" type="submit" value="Compose"/>
+                <input class="btn btn-primary" id="emailSubmit" type="submit" value="Compose" onClick={this.composeEmail}/>
               </form>
             </div>
           </div>
