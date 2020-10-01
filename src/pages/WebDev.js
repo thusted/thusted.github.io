@@ -31,22 +31,8 @@ class WebDev extends Component {
             
             <Project imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
             <br/>
-          
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={EmployeeSummary} alt="employeeSummary"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Employee Summary</b> is a command-line application that generates an HTML file that displays information on an engineeering team based on user input.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="assets/projects/employeeSummary.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <Project imgSrc={EmployeeSummary} title="Employee Summary" description="is a command-line application that generates an HTML file that displays information on an engineeering team based on user input." link="/employeesummary" />
             <br/>
 
             <div class="row">
