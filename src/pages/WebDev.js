@@ -21,22 +21,8 @@ class WebDev extends Component {
           <div class="section">
             <Card imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
             <br/>
-          
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={Burger} alt="burger"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Burgers!</b> is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="assets/projects/burger.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <Card imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
             <br/>
           
             <div class="row">
