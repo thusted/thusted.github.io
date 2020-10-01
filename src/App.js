@@ -7,7 +7,8 @@ import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Projects from './pages/WebDev';
+import WebDev from './pages/WebDev';
+import InteractiveArt from './pages/InteractiveArt';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/webdevelopment" component={WebDev} />
+          <Route exact path="/interactiveart" component={InteractiveArt} />
         </Wrapper>
       </div>
     </Router>
