@@ -5,6 +5,7 @@ import JobSearch from "../images/jobSearch.png";
 import EmployeeSummary from "../images/employeeSummary.png";
 import WeatherDashboard from "../images/weatherDashboard.png";
 import CodeQuiz from "../images/codeQuiz.png";
+import Card from "../components/Card";
 
 class WebDev extends Component {
   render() {
@@ -18,21 +19,7 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={Alertify} alt="alertify"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Alertify</b> is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="assets/projects/alertify.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Card imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
             <br/>
           
             <div class="row">
