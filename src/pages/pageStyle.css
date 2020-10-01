@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* Styling for landing/home page */
 #me {
   max-width: 100%;
   max-height: auto;
@@ -31,4 +32,36 @@
   #index-banner .section {
     top: 0;
   }
+}
+
+/* Styling for contact page */
+#github {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#linkedin {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contactIconTitles {
+  display: flex;
+  justify-content: center;
+}
+
+#contactCard {
+  padding: 1rem;
 }

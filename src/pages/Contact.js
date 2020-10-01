@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "./pageStyle.css";
+import Github from "../images/github.png";
+import Linkedin from "../images/linkedin.png";
+import ResumeIcon from "../images/resumeIcon.png";
+import Resume from "../images/web_development.pdf";
 
 
 class Contact extends Component {
@@ -44,7 +48,7 @@ class Contact extends Component {
                 <h7 class="contactIconTitles">GITHUB</h7>
                 <br/>
                 <a href="https://github.com/thusted">
-                  <img id="github" src="assets/images/github.png" alt="githubImg"/>
+                  <img id="github" src={Github} alt="githubImg"/>
                 </a>
               </div>
 
@@ -52,15 +56,15 @@ class Contact extends Component {
                 <h7 class="contactIconTitles">LINKEDIN</h7>
                 <br/>
                 <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
-                  <img id="linkedin" src="assets/images/linkedin.png" alt="linkedImg"/>
+                  <img id="linkedin" src={Linkedin} alt="linkedImg"/>
                 </a>
               </div>
 
               <div class="col s12 m4 l4">
                 <h7 class="contactIconTitles">RESUME</h7>
                 <br/>
-                <a href="./assets/images/web_development.pdf">
-                  <img id="resume" src="assets/images/resumeIcon.png" alt="resumeImg"/>
+                <a href={Resume}>
+                  <img id="resume" src={ResumeIcon} alt="resumeImg"/>
                 </a>
               </div>
             </div>
