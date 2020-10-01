@@ -11,6 +11,7 @@ import WebDev from './pages/WebDev';
 import InteractiveArt from './pages/InteractiveArt';
 import Alertify from "./pages/projects/Alertify";
 import Burger from "./pages/projects/Burger";
+import JobSearch from "./pages/projects/JobSearch";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/interactiveart" component={InteractiveArt} />
           <Route exact path="/alertify" component={Alertify} />
           <Route exact path="/burger" component={Burger} />
+          <Route exact path="/jobsearch" component={JobSearch} />
         </Wrapper>
       </div>
     </Router>
