@@ -11,9 +11,9 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav class="white">
-        <div class="nav-wrapper" id="nav-web">
-          <ul class="right">
+      <nav className="white">
+        <div className="nav-wrapper" id="nav-web">
+          <ul className="right">
           <li className="nav-item">
               <Link
                 to="/"
@@ -34,23 +34,29 @@ class Navbar extends Component {
                 Contact
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/projects"
-                className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
-              >
-                Projects
-              </Link>
-            </li>
             
             {/* Dropdown Trigger */}
-            {/* <li>
+            <li>
               <a class="dropdown-trigger" href="#!" data-target="dropdown">Projects<i class="material-icons right">arrow_drop_down</i></a>
-              <ul id="dropdown1" class="dropdown-content">
-                <li><a href="webDev.html">Web Development</a></li>
-                <li><a href="interactiveArt.html">Interactive Art</a></li>
+              <ul id="dropdown" className="dropdown-content">
+                <li className="nav-item">
+                  <Link
+                    to="/webdevelopment"
+                    className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
+                  >
+                    Web Development
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    to="/interactiveart"
+                    className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
+                  >
+                    Interactive Art
+                  </Link>
+                </li>
               </ul>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
