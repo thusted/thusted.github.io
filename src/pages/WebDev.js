@@ -37,22 +37,8 @@ class WebDev extends Component {
 
             <Project imgSrc={WeatherDashboard} title="Weather Dashboard" description="is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history." link="/weatherdashboard"/>
             <br/>
-          
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={CodeQuiz} alt="codeQuiz"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Code Quiz</b> is an application created to run an interactive timed quiz with Javascript fundamental questions.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="./assets/projects/codeQuiz.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+            <Project imgSrc={CodeQuiz} title="Code Quiz" description="is an application created to run an interactive timed quiz with Javascript fundamental questions." link="/codequiz"/>
           </div>
         </div>
       </div>
