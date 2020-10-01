@@ -19,6 +19,7 @@ import Burger from "./pages/projects/Burger";
 import JobSearch from "./pages/projects/JobSearch";
 import EmployeeSummary from "./pages/projects/EmployeeSummary";
 import WeatherDashboard from "./pages/projects/WeatherDashboard";
+import CodeQuiz from "./pages/projects/CodeQuiz";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route exact path="/jobsearch" component={JobSearch} />
           <Route exact path="/employeesummary" component={EmployeeSummary} />
           <Route exact path="/weatherdashboard" component={WeatherDashboard} />
+          <Route exact path="/codequiz" component={CodeQuiz} />
         </Wrapper>
       </div>
     </Router>
