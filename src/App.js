@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
-import 'materialize-css/dist/css/materialize.min.css';
-import Navbar from './components/Navbar';
-import Wrapper from './components/Wrapper';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import WebDev from './pages/WebDev';
-import InteractiveArt from './pages/InteractiveArt';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.css";
+import "materialize-css/dist/css/materialize.min.css";
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import WebDev from "./pages/WebDev";
+import InteractiveArt from "./pages/InteractiveArt";
 import Alertify from "./pages/projects/Alertify";
 import Burger from "./pages/projects/Burger";
 import JobSearch from "./pages/projects/JobSearch";
+import EmployeeSummary from "./pages/projects/EmployeeSummary";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/alertify" component={Alertify} />
           <Route exact path="/burger" component={Burger} />
           <Route exact path="/jobsearch" component={JobSearch} />
+          <Route exact path="/employeesummary" component={EmployeeSummary} />
         </Wrapper>
       </div>
     </Router>
