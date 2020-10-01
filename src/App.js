@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import WebDev from './pages/WebDev';
 import InteractiveArt from './pages/InteractiveArt';
 import Alertify from "./pages/projects/Alertify";
+import Burger from "./pages/projects/Burger";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/webdevelopment" component={WebDev} />
           <Route exact path="/interactiveart" component={InteractiveArt} />
           <Route exact path="/alertify" component={Alertify} />
+          <Route exact path="/burger" component={Burger} />
         </Wrapper>
       </div>
     </Router>
