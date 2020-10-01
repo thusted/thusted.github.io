@@ -35,21 +35,7 @@ class WebDev extends Component {
             <Project imgSrc={EmployeeSummary} title="Employee Summary" description="is a command-line application that generates an HTML file that displays information on an engineeering team based on user input." link="/employeesummary" />
             <br/>
 
-            <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={WeatherDashboard} alt="weatherDashboard"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Weather Dashboard</b> is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="./assets/projects/weatherDashboard.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Project imgSrc={WeatherDashboard} title="Weather Dashboard" description="is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history." link="/weatherdashboard"/>
             <br/>
           
             <div class="row">
