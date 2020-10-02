@@ -1,11 +1,17 @@
 import React, { Component } from "react";
+
+//Import css
 import M from "materialize-css";
 import "./pageStyle.css";
+
+//Import images
 import Github from "../images/github.png";
 import Linkedin from "../images/linkedin.png";
 import ResumeIcon from "../images/resumeIcon.png";
 import Resume from "../images/web_development.pdf";
 
+//Import components
+import Header from "../components/Header";
 
 class Contact extends Component {
   componentDidMount() {
@@ -23,12 +29,8 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div id="name-container">
-          <h4>CONTACT</h4>
-          <h6>I'M ALWAYS INTERESTED IN COLLABORATING AND TALKING ABOUT TECH</h6>
-        </div>
-        <br/>
-        <br/>
+        <Header title="CONTACT" subtitle="I'M ALWAYS INTERESTED IN COLLABORATING AND TALKING ABOUT TECH"/>
+        <br/><br/>
 
         <div class="row">
           <div class="col s12 m12 l6">
