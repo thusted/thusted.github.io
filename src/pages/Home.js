@@ -1,12 +1,19 @@
 import React, {Component} from "react";
 import M from "materialize-css";
+
+//Import css
 import "./pageStyle.css";
+
+//Import images
 import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
 import Alertify from "../images/alertify.png";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
-import Dollhouse3 from "../images/dollhouse3.jpg"
+import Dollhouse3 from "../images/dollhouse3.jpg";
+
+//Import components
+import Header from "../components/Header";
 
 class Home extends Component {
   componentDidMount() {
@@ -16,10 +23,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div id="name-container" class="container">
-          <h4>TIANA HUSTED</h4>
-          <h6>FULL STACK WEB DEVELOPER • TECH-BASED ARTIST</h6>
-        </div>
+        <Header title="TIANA HUSTED" subtitle="FULL STACK WEB DEVELOPER • TECH-BASED ARTIST"/>
         <br/>
 
         <div id="index-banner" class="parallax-container">
