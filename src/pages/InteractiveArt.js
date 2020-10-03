@@ -28,6 +28,9 @@ class InteractiveArt extends Component {
 
             <Project className="col s12" imgSrc={SonicSteps} title="Sonic Steps" description="is a sound-based installation where participants were welcomed to walk across a grid of stepping stones, each triggering a different sound. Commissioned for and featured at Wilsonville Festival of Arts 2018." link="/sonicsteps"/>
             <br/>
+
+            <Project className="col s12" imgSrc={Particles} title="Particles" description="is a visual representation of the human voice in the form of animated particles. These particles are visualized through projection mapping onto a an arrangement of spray-painted boxes." link="/particles"/>
+            <br/>
             
           </div>
         </div>
