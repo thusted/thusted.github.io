@@ -20,6 +20,7 @@ import JobSearch from "./pages/projects/JobSearch";
 import EmployeeSummary from "./pages/projects/EmployeeSummary";
 import WeatherDashboard from "./pages/projects/WeatherDashboard";
 import CodeQuiz from "./pages/projects/CodeQuiz";
+import Dollhouse from "./pages/projects/Dollhouse";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/employeesummary" component={EmployeeSummary} />
           <Route exact path="/weatherdashboard" component={WeatherDashboard} />
           <Route exact path="/codequiz" component={CodeQuiz} />
+          <Route exact path="/dollhouse" component={Dollhouse} />
         </Wrapper>
       </div>
     </Router>
