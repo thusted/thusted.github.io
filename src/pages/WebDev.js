@@ -23,22 +23,22 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
-            <Project imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
+            <Project className="col s12" imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
             <br/>
 
-            <Project imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
+            <Project className="col s12" imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
             <br/>
             
-            <Project imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
+            <Project className="col s12" imgSrc={JobSearch} title="Software Developers Job Search" description="is an application designed for developers out of school who are looking for jobs." link="/jobsearch"/>
             <br/>
 
-            <Project imgSrc={EmployeeSummary} title="Employee Summary" description="is a command-line application that generates an HTML file that displays information on an engineeering team based on user input." link="/employeesummary" />
+            <Project className="col s12" imgSrc={EmployeeSummary} title="Employee Summary" description="is a command-line application that generates an HTML file that displays information on an engineeering team based on user input." link="/employeesummary" />
             <br/>
 
-            <Project imgSrc={WeatherDashboard} title="Weather Dashboard" description="is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history." link="/weatherdashboard"/>
+            <Project className="col s12" imgSrc={WeatherDashboard} title="Weather Dashboard" description="is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history." link="/weatherdashboard"/>
             <br/>
-            
-            <Project imgSrc={CodeQuiz} title="Code Quiz" description="is an application created to run an interactive timed quiz with Javascript fundamental questions." link="/codequiz"/>
+
+            <Project className="col s12" imgSrc={CodeQuiz} title="Code Quiz" description="is an application created to run an interactive timed quiz with Javascript fundamental questions." link="/codequiz"/>
           </div>
         </div>
       </div>
