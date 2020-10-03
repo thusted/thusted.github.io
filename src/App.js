@@ -23,6 +23,7 @@ import CodeQuiz from "./pages/projects/CodeQuiz";
 import Dollhouse from "./pages/projects/Dollhouse";
 import MovingDolls from "./pages/projects/MovingDolls";
 import SonicSteps from "./pages/projects/SonicSteps";
+import Particles from "./pages/projects/Particles";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route exact path="/dollhouse" component={Dollhouse} />
           <Route exact path="/movingdolls" component={MovingDolls} />
           <Route exact path="/sonicsteps" component={SonicSteps} />
+          <Route exact path="/particles" component={Particles} />
         </Wrapper>
       </div>
     </Router>
