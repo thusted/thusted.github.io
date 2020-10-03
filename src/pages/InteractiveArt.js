@@ -16,6 +16,19 @@ class InteractiveArt extends Component {
     return (
       <div>
         <Header title="INTERACTIVE ART" subtitle="PAST PROJECTS"/>
+        <br/>
+
+        <div className="container">
+          <div className="section">
+            <Project className="col s12" imgSrc={MovingDolls} title="The Moving Dolls" description="is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020." link="/movingdolls"/>
+            <br/>
+
+            <Project className="col s12" imgSrc={Dollhouse} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." link="/dollhouse"/>
+            <br/>
+
+            
+          </div>
+        </div>
       </div>
     );
   }
