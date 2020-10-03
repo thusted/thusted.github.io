@@ -26,6 +26,8 @@ class InteractiveArt extends Component {
             <Project className="col s12" imgSrc={Dollhouse} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." link="/dollhouse"/>
             <br/>
 
+            <Project className="col s12" imgSrc={SonicSteps} title="Sonic Steps" description="is a sound-based installation where participants were welcomed to walk across a grid of stepping stones, each triggering a different sound. Commissioned for and featured at Wilsonville Festival of Arts 2018." link="/sonicsteps"/>
+            <br/>
             
           </div>
         </div>
