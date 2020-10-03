@@ -54,7 +54,9 @@ class Contact extends Component {
                   <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
                 </div>
                 <br/>
-                <input class="btn btn-primary" id="emailSubmit" type="submit" value="Compose" onClick={this.composeEmail}/>
+                <button class="btn waves-effect" type="submit" name="action" onClick={this.composeEmail}>COMPOSE
+                  <i class="material-icons right">send</i>
+                </button>
               </form>
             </div>
           </div>
