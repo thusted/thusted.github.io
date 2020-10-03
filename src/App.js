@@ -24,6 +24,7 @@ import Dollhouse from "./pages/projects/Dollhouse";
 import MovingDolls from "./pages/projects/MovingDolls";
 import SonicSteps from "./pages/projects/SonicSteps";
 import Particles from "./pages/projects/Particles";
+import Binaries from "./pages/projects/Binaries";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route exact path="/movingdolls" component={MovingDolls} />
           <Route exact path="/sonicsteps" component={SonicSteps} />
           <Route exact path="/particles" component={Particles} />
+          <Route exact path="/binaries" component={Binaries} />
         </Wrapper>
       </div>
     </Router>
