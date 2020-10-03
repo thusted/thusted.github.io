@@ -67,7 +67,7 @@ class Contact extends Component {
                 <h7 class="contactIconTitles">GITHUB</h7>
                 <br/>
                 <a href="https://github.com/thusted">
-                  <img id="github" src={Github} alt="githubImg"/>
+                  <img className="hoverable" id="github" src={Github} alt="githubImg"/>
                 </a>
               </div>
 
@@ -75,7 +75,7 @@ class Contact extends Component {
                 <h7 class="contactIconTitles">LINKEDIN</h7>
                 <br/>
                 <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
-                  <img id="linkedin" src={Linkedin} alt="linkedImg"/>
+                  <img className="hoverable" id="linkedin" src={Linkedin} alt="linkedImg"/>
                 </a>
               </div>
 
@@ -83,7 +83,7 @@ class Contact extends Component {
                 <h7 class="contactIconTitles">RESUME</h7>
                 <br/>
                 <a href={Resume}>
-                  <img id="resume" src={ResumeIcon} alt="resumeImg"/>
+                  <img className="hoverable" id="resume" src={ResumeIcon} alt="resumeImg"/>
                 </a>
               </div>
             </div>
