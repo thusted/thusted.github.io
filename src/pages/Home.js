@@ -14,6 +14,7 @@ import Dollhouse3 from "../images/dollhouse3.jpg";
 
 //Import components
 import Header from "../components/Header";
+import Project from "../components/Project";
 
 class Home extends Component {
   componentDidMount() {
@@ -55,9 +56,7 @@ class Home extends Component {
 
         <div class="container">
           <div class="section">
-            <div class="col c12 center">
-              <h4>FEATURED PROJECTS</h4>
-            </div>
+            <Header title="FEATURED PROJECTS"/>
             <br/>
             
             <div class="row">
