@@ -61,20 +61,8 @@ class Home extends Component {
             
             <div class="row">
               <Project className="col s12 m6 l6" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
-            
-              <div class="col s12 m6 l6">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={DollhouseBack} alt="cardImage"/>
-                  </div>
-                  <div class="card-content">
-                    <p>Modeled after a turn of the century Victorian home, <b>"The Dollhouse"</b> was a piece comissioned for and featured at Burning Man 2019.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="./assets/projects/dollhouse.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
+
+              <Project className="col s12 m6 l6" imgSrc={DollhouseBack} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." link="/dollhouse"/>
             </div>
           </div>
         </div>
