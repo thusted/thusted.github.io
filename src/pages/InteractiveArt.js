@@ -31,7 +31,8 @@ class InteractiveArt extends Component {
 
             <Project className="col s12" imgSrc={Particles} title="Particles" description="is a visual representation of the human voice in the form of animated particles. These particles are visualized through projection mapping onto a an arrangement of spray-painted boxes." link="/particles"/>
             <br/>
-            
+
+            <Project className="col s12" imgSrc={Binaries} title="Binaries" description="s an interactive painting, using capacitive touch sensors to trigger sound." link="/binaries"/>
           </div>
         </div>
       </div>
