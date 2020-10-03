@@ -15,7 +15,7 @@ class InteractiveArt extends Component {
   render() {
     return (
       <div>
-        interactive art
+        <Header title="INTERACTIVE ART" subtitle="PAST PROJECTS"/>
       </div>
     );
   }
