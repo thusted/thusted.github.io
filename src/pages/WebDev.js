@@ -10,16 +10,14 @@ import CodeQuiz from "../images/codeQuiz.png";
 
 // Importing components
 import Project from "../components/Project";
+import Header from "../components/Header";
 
 class WebDev extends Component {
   render() {
     return (
       <div>
-        <div id="name-container">
-          <h4>WEB DEVELOPMENT</h4>
-          <h6>PAST PROJECTS</h6>
-        </div>
-        <br/><br/>
+        <Header title="WEB DEVELOPMENT" subtitle="PAST PROJECTS"/>
+        <br/>
 
         <div class="container">
           <div class="section">
