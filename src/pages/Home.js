@@ -60,19 +60,8 @@ class Home extends Component {
             <br/>
             
             <div class="row">
-              <div class="col s12 m6 l6">
-                <div class="card">
-                  <div class="card-image">
-                    <img src={Alertify} alt="cardImage"/>
-                  </div>
-                  <div class="card-content">
-                    <p><b>Alertify</b> is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="../projects/alertify.html">VIEW PROJECT</a>
-                  </div>
-                </div>
-              </div>
+              <Project className="col s12 m6 l6" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
+            
               <div class="col s12 m6 l6">
                 <div class="card">
                   <div class="card-image">
