@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Project ({imgSrc, title, description, link}) {
+function Project ({className, imgSrc, title, description, link}) {
   return (
-    <div class="col s12">
-      <div class="card">
-        <div class="card-image">
+    <div className={className}>
+      <div className="card">
+        <div className="card-image">
           <img src={imgSrc} alt="cardImg"/>
         </div>
-        <div class="card-content">
+        <div className="card-content">
           <p><b>{title}</b> {description}</p>
         </div>
-        <div class="card-action">
+        <div className="card-action">
           <Link
             to={link}
             className={window.location.pathname === {link} ? "nav-link active" : "nav-link"}
