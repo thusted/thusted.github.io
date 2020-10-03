@@ -22,6 +22,7 @@ import WeatherDashboard from "./pages/projects/WeatherDashboard";
 import CodeQuiz from "./pages/projects/CodeQuiz";
 import Dollhouse from "./pages/projects/Dollhouse";
 import MovingDolls from "./pages/projects/MovingDolls";
+import SonicSteps from "./pages/projects/SonicSteps";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route exact path="/codequiz" component={CodeQuiz} />
           <Route exact path="/dollhouse" component={Dollhouse} />
           <Route exact path="/movingdolls" component={MovingDolls} />
+          <Route exact path="/sonicsteps" component={SonicSteps} />
         </Wrapper>
       </div>
     </Router>
