@@ -21,9 +21,11 @@ class Contact extends Component {
   composeEmail(e) {
     e.preventDefault();
     let name = document.getElementById("nameInput").value;
+    let subject = document.getElementById("subjectInput").value;
     let body = document.getElementById("msgInput").value;
     const msg = `${body}%0d%0a%0d%0aRegards, ${name}`;
-    window.open(`mailto:tiana.husted@gmail.com?body=${msg}`);
+    window.open(`mailto:tiana.husted@gmail.com?subject=${subject}&body=${msg}`);
+    document.getElementById("mail").reset();
   }
 
   render() {
@@ -36,10 +38,15 @@ class Contact extends Component {
           <div class="col s12 m12 l6">
             <h7>FILL OUT THE FORM TO SEND ME AN EMAIL</h7>
             <div class="card body" id="contactCard">
-              <form class="mail">
+              <form id="mail">
                 <div class="form-group">
                   <label for="nameInput">Name:</label>
                   <input type="text" class="form-control" id="nameInput" placeholder="First & Last Name"/>
+                </div>
+                <br/>
+                <div class="form-group">
+                  <label for="subjectInput">Subject:</label>
+                  <input type="text" class="form-control" id="subjectInput" placeholder="Hello!"/>
                 </div>
                 <br/>
                 <div class="form-group">
