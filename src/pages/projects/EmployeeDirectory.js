@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class CodeQuiz extends Component {
+class EmployeeDirectory extends Component {
   render() {
     return (
       <div>
-        CodeQuiz
+        EmployeeDirectory
       </div>
     );
   }
 }
 
-export default CodeQuiz;
+export default EmployeeDirectory;

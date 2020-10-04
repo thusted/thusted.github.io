@@ -6,7 +6,7 @@ import Burger from "../images/burgerApp.png";
 import JobSearch from "../images/jobSearch.png";
 import EmployeeSummary from "../images/employeeSummary.png";
 import WeatherDashboard from "../images/weatherDashboard.png";
-import CodeQuiz from "../images/codeQuiz.png";
+import EmployeeDirectory from "../images/employeeDirectory.png";
 
 // Importing components
 import Project from "../components/Project";
@@ -21,6 +21,9 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
+            <Project className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory"/>
+            <br/>
+
             <Project className="col s12" imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
             <br/>
 
@@ -34,9 +37,6 @@ class WebDev extends Component {
             <br/>
 
             <Project className="col s12" imgSrc={WeatherDashboard} title="Weather Dashboard" description="is an application designed to show the weather outlook for any given city. When a user searches for a city, they are presented with current and future conditions for that city and that city is added to the search history." link="/weatherdashboard"/>
-            <br/>
-
-            <Project className="col s12" imgSrc={CodeQuiz} title="Code Quiz" description="is an application created to run an interactive timed quiz with Javascript fundamental questions." link="/codequiz"/>
           </div>
         </div>
       </div>

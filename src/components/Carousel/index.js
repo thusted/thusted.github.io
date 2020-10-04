@@ -3,15 +3,13 @@ import React from "react";
 //Importing style
 import "./style.css";
 
-function Carousel() {
+function Carousel({imageSrc}) {
   return (
-    <div class="col s12">
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"><img alt="carouselImg" class="materialboxed" src="../images/alertify.png"/></a>
-        <a class="carousel-item" href="#two!"><img alt="carouselImg" class="materialboxed" src="../images/alertifyLogin.png"/></a>
-        <a class="carousel-item" href="#three!"><img alt="carouselImg" class="materialboxed" src="../images/alertifySignIn.png"/></a>
-        <a class="carousel-item" href="#four!"><img alt="carouselImg" class="materialboxed" src="../images/alertifySignUp.png"/></a>
-        <a class="carousel-item" href="#five!"><img alt="carouselImg" class="materialboxed" src="../images/alertifyTracker.png"/></a>
+    <div className="col s12">
+      <div className="carousel">
+        <img className="carousel-item" alt="carouselImg" src={imageSrc}/>
+        <img className="carousel-item" alt="carouselImg" src={imageSrc}/>
+        <img className="carousel-item" alt="carouselImg" src={imageSrc}/>
       </div>
     </div>
   );
