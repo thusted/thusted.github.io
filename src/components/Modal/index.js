@@ -1,8 +1,5 @@
 import React from "react";
 
-//Import css
-import "./style.css";
-
 //Import components
 import Slider from "../Slider";
 
