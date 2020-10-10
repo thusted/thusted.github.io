@@ -6,8 +6,8 @@ import "./style.css";
 function Slider({imageArray}) {
   if(imageArray){
     return (
-      <div class="slider">
-        <ul class="slides">
+      <div className="slider">
+        <ul className="slides">
           {imageArray.map((image) => (
             <li key={image}><img alt="sliderImg" src={image}/></li>
           ))}
