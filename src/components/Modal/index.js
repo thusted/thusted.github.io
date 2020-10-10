@@ -13,22 +13,20 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
       <div className="modal-content">
         <h4 className="text-center">{title}</h4>
         <p>{modalDescription}</p>
+        <br/>
         <Slider imageArray={imageArray}/>
         <h5>Technologies Used</h5>
-          <ul>
-            {tech.map((techItem) => (
-              <li key={techItem}>{techItem}</li>
-            ))}
-          </ul>
+          {tech.join(", ")}
         <h5>Links</h5>
-          <ul>
-            {links.map((link) => (
-              <li key={link}>{link}</li>
-            ))}
-          </ul>
+          {links.map((link) => (
+            <div>
+              <a key={link} href={link}>{link}</a>
+              <br/>
+            </div>
+          ))}
       </div>
       <div className="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">x</a>
+        <a href="#!" className="modal-close waves-effect waves-green btn-flat">x</a>
       </div>
     </div>
     )
