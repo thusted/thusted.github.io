@@ -11,6 +11,8 @@ import Dollhouse2 from "../images/dollhouse2.jpg";
 import Alertify from "../images/alertify.png";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
 import Dollhouse3 from "../images/dollhouse3.jpg";
+import Dollhouse from "../images/dollhouse.jpg";
+import DollhouseDark from "../images/dollhouseDark.jpeg";
 
 //Import components
 import Header from "../components/Header";
@@ -18,10 +20,14 @@ import Project from "../components/Project";
 
 class Home extends Component {
   componentDidMount() {
+    const elems = document.querySelectorAll('.slider');
+    M.Slider.init(elems);
     M.AutoInit();
   }
 
   render() {
+    const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack];
+
     return (
       <div>
         <Header title="TIANA HUSTED" subtitle="FULL STACK WEB DEVELOPER • TECH-BASED ARTIST"/>
@@ -39,7 +45,7 @@ class Home extends Component {
                 <h4>ABOUT</h4>
                 <div class="row">
                   <div class="col s12 m8 l8">
-                    <p class="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in full stack web development with newly acquired skills in JavaScript, CSS, HTML, Node.js, and databases. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways a user might interact with various interfaces. I am committed to approaching any project with innovation and creativity.</p>
+                    <p class="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in full stack web development with newly acquired skills in JavaScript, CSS, HTML, Node.js, databases, and more. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways a user might interact with various interfaces. I am committed to approaching any project with innovation and creativity.</p>
                   </div>
                   <div class="col s12 m4 l4">
                     <img id="me" src={Me} alt="me"/>
@@ -60,9 +66,9 @@ class Home extends Component {
             <br/>
             
             <div class="row">
-              <Project className="col s12 m6 l6" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
+              <Project href="#modal1" id="modal1" className="col s12 m6 l6" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." modalDescription="This application can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker. User will sign up to create an account. Once created, they can login to provide an emergency contact to be alerted if an emergency situation. Within their login, they have a red button to press (Alertify) that sends out a text to their contact with current location to be found with."/>
 
-              <Project className="col s12 m6 l6" imgSrc={DollhouseBack} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." link="/dollhouse"/>
+              <Project href="#modal2" id="modal2" className="col s12 m6 l6" imgSrc={DollhouseBack} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." modalDescription="Modeled after a turn of the century Victorian home, The Dollhouse was a piece comissioned for and featured at Burning Man 2019. The back side of the home had the illusion of being completely exposed to open playa, but was enclosed with clear acrylic paneling. This allowed citizens of Black Rock City to see the illuminated structure, and the participants within, from afar. There are two stories, each with two rooms, conventional to the Victorian era: ballroom, kitchen, bathroom, and bedroom. Art pieces in the home include photographs and paintings of a family long past, ghostly porcelain dolls, oddities, remnants of a seance gone wrong, an infinity mirror, and window etchings, all of which react to human touch and/or presence. We hoped to create an ethereal world on playa, captivating and enticing people to play and discover more secrets within." imageArray={dollhouseImages}/>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
-            <Project className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory"/>
+            <Project href="#modal3" id="modal3" className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory"/>
             <br/>
 
             <Project className="col s12" imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>

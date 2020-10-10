@@ -1,16 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Modal from "../Modal";
 
 //Import css
 import "./style.css";
 
-function Project ({className, imgSrc, title, description, link}) {
+function Project ({href, id, className, imgSrc, title, description, modalDescription, imageArray, tech, links}) {
   return (
     <div className={className}>
-      <Link
-        to={link}
-        className={window.location.pathname === {link} ? "nav-link active" : "nav-link"}
-      >
+      <a className="modal-trigger" href={href}>
         <div className="card hoverable">
           <div className="card-image">
             <img src={imgSrc} alt="cardImg"/>
@@ -19,7 +16,8 @@ function Project ({className, imgSrc, title, description, link}) {
             <p><b>{title}</b> {description}</p>
           </div>
         </div>
-      </Link>
+      </a>
+      <Modal id={id} title={title} modalDescription={modalDescription} imageArray={imageArray}/>
     </div>
   )
 }
