@@ -14,17 +14,6 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import WebDev from "./pages/WebDev";
 import InteractiveArt from "./pages/InteractiveArt";
-// import EmployeeDirectory from "./pages/projects/EmployeeDirectory";
-// import Alertify from "./pages/projects/Alertify";
-// import Burger from "./pages/projects/Burger";
-// import JobSearch from "./pages/projects/JobSearch";
-// import EmployeeSummary from "./pages/projects/EmployeeSummary";
-// import WeatherDashboard from "./pages/projects/WeatherDashboard";
-// import Dollhouse from "./pages/projects/Dollhouse";
-// import MovingDolls from "./pages/projects/MovingDolls";
-// import SonicSteps from "./pages/projects/SonicSteps";
-// import Particles from "./pages/projects/Particles";
-// import Binaries from "./pages/projects/Binaries";
 
 function App() {
   return (
@@ -37,17 +26,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/webdevelopment" component={WebDev} />
           <Route exact path="/interactiveart" component={InteractiveArt} />
-          {/* <Route exact path="/employeedirectory" component={EmployeeDirectory} />
-          <Route exact path="/alertify" component={Alertify} />
-          <Route exact path="/burger" component={Burger} />
-          <Route exact path="/jobsearch" component={JobSearch} />
-          <Route exact path="/employeesummary" component={EmployeeSummary} />
-          <Route exact path="/weatherdashboard" component={WeatherDashboard} />
-          <Route exact path="/dollhouse" component={Dollhouse} />
-          <Route exact path="/movingdolls" component={MovingDolls} />
-          <Route exact path="/sonicsteps" component={SonicSteps} />
-          <Route exact path="/particles" component={Particles} />
-          <Route exact path="/binaries" component={Binaries} /> */}
         </Wrapper>
       </div>
     </Router>
