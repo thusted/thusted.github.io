@@ -1,0 +1,17 @@
+.page-footer {
+  background-color: white;
+}
+
+.footerText {
+  color: black;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#reactLogo {
+  max-width: 5%;
+  max-height: auto;
+}
