@@ -37,7 +37,7 @@ class Navbar extends Component {
             
             {/* Dropdown Trigger */}
             <li>
-              <a className="dropdown-trigger" href="#!" data-target="dropdown">Projects<i class="material-icons right">arrow_drop_down</i></a>
+              <a className="dropdown-trigger" href="#!" data-target="dropdown">Projects<i className="material-icons right">arrow_drop_down</i></a>
               <ul id="dropdown" className="dropdown-content">
                 <li className="nav-item">
                   <Link

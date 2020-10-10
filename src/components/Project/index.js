@@ -17,7 +17,7 @@ function Project ({href, id, className, imgSrc, title, description, modalDescrip
           </div>
         </div>
       </a>
-      <Modal id={id} title={title} modalDescription={modalDescription} imageArray={imageArray}/>
+      <Modal id={id} title={title} modalDescription={modalDescription} imageArray={imageArray} tech={tech} links={links}/>
     </div>
   )
 }
