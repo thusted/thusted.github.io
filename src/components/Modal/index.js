@@ -31,8 +31,7 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
     )
   } else {
     return <div>Placeholder</div>
-  }
-  
-}
+  };
+};
 
 export default Modal;

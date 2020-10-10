@@ -14,8 +14,8 @@ function Footer() {
         <p className="footerText">Made With React</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
 
