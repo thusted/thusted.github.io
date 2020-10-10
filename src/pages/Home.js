@@ -28,7 +28,6 @@ import Project from "../components/Project";
 
 //Image Arrays
 const alertifyImages = [Alertify, AlertifyLogin, AlertifySignIn, AlertifySignUp, AlertifyTracker];
-
 const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack, DollhouseDesert, DollhouseHeart, DollhousePig, DollhouseTable];
 
 function Home() {
