@@ -15,8 +15,10 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
         <p>{modalDescription}</p>
         <br/>
         <Slider imageArray={imageArray}/>
+        <br/>
         <h5>Technologies Used</h5>
           {tech.join(", ")}
+          <br/><br/>
         <h5>Links</h5>
           {links.map((link) => (
             <div>
