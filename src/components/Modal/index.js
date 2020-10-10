@@ -8,7 +8,7 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
     return (
       <div id={id} className="modal modal-fixed-footer">
       <div className="modal-content">
-        <div className="container">
+        <div>
           <h4 className="text-center">{title}</h4>
           <p>{modalDescription}</p>
           <br/>

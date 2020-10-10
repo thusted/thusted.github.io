@@ -1,8 +1,8 @@
 # React_Portfolio
 ## Description
-This is an online portfolio made to showcase my web development and interactive art work. Made with Materialize framework.
+This is an online portfolio made to showcase my web development and interactive art work. Made with React and Materialize.
 
-Link to Deployed Page: 
+Link to Deployed Page: https://thusted.github.io/
 
 ## Table of Contents
 * [Description](#Description)
