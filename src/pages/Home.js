@@ -23,7 +23,6 @@ import DollhousePig from "../images/dollhousePig.png";
 import DollhouseTable from "../images/dollhouseTable.png";
 
 //Import components
-import Wrapper from "../components/Wrapper";
 import Header from "../components/Header";
 import Project from "../components/Project";
 
