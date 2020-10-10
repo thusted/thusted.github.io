@@ -35,8 +35,8 @@ function WebDev() {
       <Header title="WEB DEVELOPMENT" subtitle="PAST PROJECTS"/>
       <br/>
 
-      <div class="container">
-        <div class="section">
+      <div className="container">
+        <div className="section">
           <Project href="#modal3" id="modal3" className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory" modalDescription="Employee Directory creates an employee directory with React. Users are able to filter employees by typing in names as well as sort employees alphabetically by name, country, or email." imageArray={[EmployeeDirectory]} tech={["React, JavaScript", "HTML", "CSS"]} links={["https://ancient-thicket-95619.herokuapp.com/", "https://github.com/thusted/Employee_Directory"]}/>
           <br/>
 
