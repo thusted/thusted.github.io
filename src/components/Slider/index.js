@@ -16,7 +16,7 @@ function Slider({imageArray}) {
     )
   } else {
     return <div>Placeholder</div>
-  }
-}
+  };
+};
 
 export default Slider;
