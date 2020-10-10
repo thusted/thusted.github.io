@@ -1,9 +1,16 @@
 import React, { Component } from "react";
+import M from "materialize-css";
 
 // Importing images
 import Alertify from "../images/alertify.png";
+import AlertifyLogin from "../images/alertifyLogin.png";
+import AlertifySignIn from "../images/alertifySignIn.png";
+import AlertifySignUp from "../images/alertifySignUp.png";
+import AlertifyTracker from "../images/alertifyTracker.png";
 import Burger from "../images/burgerApp.png";
 import JobSearch from "../images/jobSearch.png";
+import JobSearchContact from "../images/jobSearchContact.png";
+import JobSearchHome from "../images/jobSearchHome.png";
 import EmployeeSummary from "../images/employeeSummary.png";
 import WeatherDashboard from "../images/weatherDashboard.png";
 import EmployeeDirectory from "../images/employeeDirectory.png";
@@ -13,7 +20,17 @@ import Project from "../components/Project";
 import Header from "../components/Header";
 
 class WebDev extends Component {
+  componentDidMount() {
+    const elems = document.querySelectorAll('.slider');
+    M.Slider.init(elems);
+    M.AutoInit();
+  }
+
   render() {
+    const alertifyImages = [Alertify, AlertifyLogin, AlertifySignIn, AlertifySignUp, AlertifyTracker];
+
+    const jobSearchImages = [JobSearch, JobSearchContact, JobSearchHome];
+
     return (
       <div>
         <Header title="WEB DEVELOPMENT" subtitle="PAST PROJECTS"/>
@@ -21,11 +38,10 @@ class WebDev extends Component {
 
         <div class="container">
           <div class="section">
-            <Project href="#modal3" id="modal3" className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory"/>
+            <Project href="#modal3" id="modal3" className="col s12" imgSrc={EmployeeDirectory} title="Employee Directory" description="is an application that creates a directory of employees with React." link="/employeedirectory" modalDescription="This application creates an employee directory with React. Users are able to filter employees by typing in names as well as sort employees alphabetically by name, country, or email." imageArray={[EmployeeDirectory]} tech={["React, JavaScript", "HTML", "CSS"]} links={["https://ancient-thicket-95619.herokuapp.com/", "https://github.com/thusted/Employee_Directory"]}/>
             <br/>
 
-            <Project className="col s12" imgSrc={Alertify} title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." link="/alertify"/>
-            <br/>
+            <Project href="#modal4" id="modal4" className="col s12 m6 l6" imgSrc={Alertify}title="Alertify" description="is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker." modalDescription="This application can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker. User will sign up to create an account. Once created, they can login to provide an emergency contact to be alerted if an emergency situation. Within their login, they have a red button to press (Alertify) that sends out a text to their contact with current location to be found with." imageArray={alertifyImages} tech={["HTML", "CSS","JavaScript", "JQuery", "NodeJS", "Sequelize","Passport","BCrypt", "Quick Easy SMS API"]} links={["https://alertifynow.herokuapp.com/", "https://github.com/thusted/Alertify"]}/>
 
             <Project className="col s12" imgSrc={Burger} title="Burgers!" description="is an application allows users to log burgers with MySQL, Node, Express, Handlebars, and a homemade ORM." link="/burger"/>
             <br/>
