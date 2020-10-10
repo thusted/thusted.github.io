@@ -1,18 +1,53 @@
 import React, { Component } from "react";
+import M from "materialize-css";
 
 // Importing images
 import MovingDolls from "../images/movingDolls.jpg";
+import MovingDollsCabinet from "../images/movingDollsCabinet.jpeg";
+import MovingDollsGallery from "../images/movingDollsGallery.jpeg";
 import Dollhouse from "../images/dollhouse.jpg";
+import DollhouseDark from "../images/dollhouseDark.jpeg";
+import DollhouseBack from "../images/dollhouseBack.jpeg";
+import DollhouseDesert from "../images/dollhouseDesert.png";
+import DollhouseHeart from "../images/dollhouseHeart.jpeg";
+import DollhousePig from "../images/dollhousePig.png";
+import DollhouseTable from "../images/dollhouseTable.png";
 import SonicSteps from "../images/sonicSteps.JPG";
+import SonicKids from "../images/sonicKids.png";
+import SonicTallKid from "../images/sonicTallKid.JPG";
+import SonicBuild from "../images/sonicBuild.png";
+import SonicBuild2 from "../images/sonicBuild2.JPG";
 import Particles from "../images/particlesOfTheVoice.png";
+import ParticleBoxes from "../images/particlesaBoxes.png";
+import ParticlesCircuit from "../images/particlesCircuit.png";
 import Binaries from "../images/binaries.png";
+import BinariesClose from "../images/binariesClose.JPG";
+import BinariesMakey from "../binariesMakey.png";
+import BinariesWall from "../images/binariesWall.png";
+import BinariesWiring from "../images/binariesWiring.png";
 
 // Importing components
 import Project from "../components/Project";
 import Header from "../components/Header";
 
 class InteractiveArt extends Component {
+  componentDidMount() {
+    const elems = document.querySelectorAll('.slider');
+    M.Slider.init(elems);
+    M.AutoInit();
+  }
+
   render() {
+    const movingDollsImages = [MovingDolls, MovingDollsCabinet, MovingDollsGallery];
+
+    const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack, DollhouseDesert, DollhouseHeart, DollhousePig, DollhouseTable];
+
+    const sonicStepsImages = [SonicSteps, SonicKids, SonicTallKid, SonicBuild, SonicBuild2];
+
+    const particlesImages = [Particles, ParticleBoxes, ParticlesCircuit];
+
+    const binariesImages = [Binaries, BinariesClose, BinariesMakey, BinariesWall, BinariesWiring];
+
     return (
       <div>
         <Header title="INTERACTIVE ART" subtitle="PAST PROJECTS"/>
