@@ -13,6 +13,10 @@ import DollhouseBack from "../images/dollhouseBack.jpeg";
 import Dollhouse3 from "../images/dollhouse3.jpg";
 import Dollhouse from "../images/dollhouse.jpg";
 import DollhouseDark from "../images/dollhouseDark.jpeg";
+import DollhouseDesert from "../images/dollhouseDesert.png";
+import DollhouseHeart from "../images/dollhouseHeart.jpeg";
+import DollhousePig from "../images/dollhousePig.png";
+import DollhouseTable from "../images/dollhouseTable.png";
 
 //Import components
 import Header from "../components/Header";
@@ -26,7 +30,7 @@ class Home extends Component {
   }
 
   render() {
-    const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack];
+    const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack, DollhouseDesert, DollhouseHeart, DollhousePig, DollhouseTable];
 
     return (
       <div>
