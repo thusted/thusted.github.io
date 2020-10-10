@@ -18,11 +18,11 @@ import SonicTallKid from "../images/sonicTallKid.JPG";
 import SonicBuild from "../images/sonicBuild.png";
 import SonicBuild2 from "../images/sonicBuild2.JPG";
 import Particles from "../images/particlesOfTheVoice.png";
-import ParticleBoxes from "../images/particlesaBoxes.png";
+import ParticleBoxes from "../images/particlesBoxes.png";
 import ParticlesCircuit from "../images/particlesCircuit.png";
 import Binaries from "../images/binaries.png";
 import BinariesClose from "../images/binariesClose.JPG";
-import BinariesMakey from "../binariesMakey.png";
+import BinariesMakey from "../images/binariesMakey.png";
 import BinariesWall from "../images/binariesWall.png";
 import BinariesWiring from "../images/binariesWiring.png";
 
@@ -55,7 +55,7 @@ class InteractiveArt extends Component {
 
         <div className="container">
           <div className="section">
-            <Project className="col s12" imgSrc={MovingDolls} title="The Moving Dolls" description="is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020." link="/movingdolls"/>
+            <Project href="#modal9" id="modal9" className="col s12" imgSrc={MovingDolls} title="The Moving Dolls" description="is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020." modalDescription="“The Moving Dolls” is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020. This piece utilized facial recognition software (OpenCV) to track the movement of participants, relaying that information to servo motors sewn into the bodies of thirteen dolls on a shelf." imageArray={movingDollsImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "OpenCV", "Servo Motors", "Relay Modules"]} links={["https://vimeo.com/452711450"]}/>
             <br/>
 
             <Project className="col s12" imgSrc={Dollhouse} title="The Dollhouse" description="is a two story, lifesize, interactive house, modeled after a turn of the century Victorian home. Comissioned for and featured at Burning Man 2019." link="/dollhouse"/>
