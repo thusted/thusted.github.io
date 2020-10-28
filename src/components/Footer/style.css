@@ -11,7 +11,6 @@
   justify-content: center;
 }
 
-#reactLogo {
-  max-width: 5%;
-  max-height: auto;
+a {
+  padding: 1rem;
 }
