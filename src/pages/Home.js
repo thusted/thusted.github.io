@@ -9,7 +9,7 @@ import "./pageStyle.css";
 import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
-import Alertify from "../images/alertify.png";
+import Alertify from "../images/alertify.jpeg";
 import AlertifyLogin from "../images/alertifyLogin.png";
 import AlertifySignIn from "../images/alertifySignIn.png";
 import AlertifySignUp from "../images/alertifySignUp.png";
