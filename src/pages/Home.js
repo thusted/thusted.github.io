@@ -10,25 +10,22 @@ import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
 import Alertify from "../images/alertify.jpeg";
-import AlertifyLogin from "../images/alertifyLogin.png";
-import AlertifySignIn from "../images/alertifySignIn.png";
-import AlertifySignUp from "../images/alertifySignUp.png";
-import AlertifyTracker from "../images/alertifyTracker.png";
+import AlertifyLogin from "../images/alertifyLogin.jpeg";
+import AlertifySignIn from "../images/alertifySignIn.jpeg";
+import AlertifySignUp from "../images/alertifySignUp.jpeg";
+import AlertifyTracker from "../images/alertifyTracker.jpeg";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
 import Dollhouse3 from "../images/dollhouse3.jpg";
-import Dollhouse from "../images/dollhouse.jpg";
+import Dollhouse from "../images/dollhouse.jpeg";
 import DollhouseDark from "../images/dollhouseDark.jpeg";
-import DollhouseDesert from "../images/dollhouseDesert.png";
+import DollhouseDesert from "../images/dollhouseDesert.jpeg";
 import DollhouseHeart from "../images/dollhouseHeart.jpeg";
-import DollhousePig from "../images/dollhousePig.png";
-import DollhouseTable from "../images/dollhouseTable.png";
+import DollhousePig from "../images/dollhousePig.jpeg";
+import DollhouseTable from "../images/dollhouseTable.jpeg";
 
 //Import components
 import Header from "../components/Header";
 import Project from "../components/Project";
-
-//Import pages
-import WebDev from "./WebDev";
 
 //Image Arrays
 const alertifyImages = [Alertify, AlertifyLogin, AlertifySignIn, AlertifySignUp, AlertifyTracker];

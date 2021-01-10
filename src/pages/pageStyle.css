@@ -30,6 +30,11 @@
   }
 }
 
+/* .col-sm12-m6-l6 {
+  display: flex;
+  justify-content: center;
+} */
+
 /* Styling for contact page */
 #github {
   max-width: 100%;

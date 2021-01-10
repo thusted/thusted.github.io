@@ -2,29 +2,29 @@ import React, { useEffect } from "react";
 import M from "materialize-css";
 
 // Importing images
-import MovingDolls from "../images/movingDolls.jpg";
+import MovingDolls from "../images/movingDolls.jpeg";
 import MovingDollsCabinet from "../images/movingDollsCabinet.jpeg";
 import MovingDollsGallery from "../images/movingDollsGallery.jpeg";
-import Dollhouse from "../images/dollhouse.jpg";
+import Dollhouse from "../images/dollhouse.jpeg";
 import DollhouseDark from "../images/dollhouseDark.jpeg";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
-import DollhouseDesert from "../images/dollhouseDesert.png";
+import DollhouseDesert from "../images/dollhouseDesert.jpeg";
 import DollhouseHeart from "../images/dollhouseHeart.jpeg";
-import DollhousePig from "../images/dollhousePig.png";
-import DollhouseTable from "../images/dollhouseTable.png";
-import SonicSteps from "../images/sonicSteps.JPG";
-import SonicKids from "../images/sonicKids.png";
-import SonicTallKid from "../images/sonicTallKid.JPG";
-import SonicBuild from "../images/sonicBuild.png";
-import SonicBuild2 from "../images/sonicBuild2.JPG";
-import Particles from "../images/particlesOfTheVoice.png";
-import ParticleBoxes from "../images/particlesBoxes.png";
-import ParticlesCircuit from "../images/particlesCircuit.png";
-import Binaries from "../images/binaries.png";
-import BinariesClose from "../images/binariesClose.JPG";
-import BinariesMakey from "../images/binariesMakey.png";
-import BinariesWall from "../images/binariesWall.png";
-import BinariesWiring from "../images/binariesWiring.png";
+import DollhousePig from "../images/dollhousePig.jpeg";
+import DollhouseTable from "../images/dollhouseTable.jpeg";
+import SonicSteps from "../images/sonicSteps.jpeg";
+import SonicKids from "../images/sonicKids.jpeg";
+import SonicTallKid from "../images/sonicTallKid.jpeg";
+import SonicBuild from "../images/sonicBuild.jpeg";
+import SonicBuild2 from "../images/sonicBuild2.jpeg";
+import Particles from "../images/particlesOfTheVoice.jpeg";
+import ParticleBoxes from "../images/particlesBoxes.jpeg";
+import ParticlesCircuit from "../images/particlesCircuit.jpeg";
+import Binaries from "../images/binaries.jpeg";
+import BinariesClose from "../images/binariesClose.jpeg";
+import BinariesMakey from "../images/binariesMakey.jpeg";
+import BinariesWall from "../images/binariesWall.jpeg";
+import BinariesWiring from "../images/binariesWiring.jpeg";
 
 // Importing components
 import Project from "../components/Project";

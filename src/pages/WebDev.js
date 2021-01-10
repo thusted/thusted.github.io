@@ -2,18 +2,18 @@ import React, { useEffect } from "react";
 import M from "materialize-css";
 
 // Importing images
-import Alertify from "../images/alertify.png";
-import AlertifyLogin from "../images/alertifyLogin.png";
-import AlertifySignIn from "../images/alertifySignIn.png";
-import AlertifySignUp from "../images/alertifySignUp.png";
-import AlertifyTracker from "../images/alertifyTracker.png";
-import Burger from "../images/burgerApp.png";
-import JobSearch from "../images/jobSearch.png";
-import JobSearchContact from "../images/jobSearchContact.png";
-import JobSearchHome from "../images/jobSearchHome.png";
-import EmployeeSummary from "../images/employeeSummary.png";
-import WeatherDashboard from "../images/weatherDashboard.png";
-import EmployeeDirectory from "../images/employeeDirectory.png";
+import Alertify from "../images/alertify.jpeg";
+import AlertifyLogin from "../images/alertifyLogin.jpeg";
+import AlertifySignIn from "../images/alertifySignIn.jpeg";
+import AlertifySignUp from "../images/alertifySignUp.jpeg";
+import AlertifyTracker from "../images/alertifyTracker.jpeg";
+import Burger from "../images/burgerApp.jpeg";
+import JobSearch from "../images/jobSearch.jpeg";
+import JobSearchContact from "../images/jobSearchContact.jpeg";
+import JobSearchHome from "../images/jobSearchHome.jpeg";
+import EmployeeSummary from "../images/employeeSummary.jpeg";
+import WeatherDashboard from "../images/weatherDashboard.jpeg";
+import EmployeeDirectory from "../images/employeeDirectory.jpeg";
 
 // Importing components
 import Project from "../components/Project";
