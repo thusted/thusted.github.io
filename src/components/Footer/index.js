@@ -6,14 +6,9 @@ import M from "materialize-css";
 //Import css
 import "./style.css";
 
-//Import Resume
-import Resume from "../../images/web_development.pdf";
-
 //Import images
 import Github from "../../images/github.png";
 import Linkedin from "../../images/linkedin.png";
-import ResumeIcon from "../../images/resumeIcon.png";
-
 
 function Footer() {
   useEffect(() => {
