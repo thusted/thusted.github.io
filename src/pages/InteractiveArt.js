@@ -25,6 +25,8 @@ import BinariesClose from "../images/binariesClose.jpeg";
 import BinariesMakey from "../images/binariesMakey.jpeg";
 import BinariesWall from "../images/binariesWall.jpeg";
 import BinariesWiring from "../images/binariesWiring.jpeg";
+import LumenCordis from "../images/lumenCordis.jpeg";
+import LumenCordisClose from "../images/lumenCordisClose.jpeg";
 
 // Importing components
 import Project from "../components/Project";
@@ -37,6 +39,7 @@ const dollhouseImages = [Dollhouse, DollhouseDark, DollhouseBack, DollhouseDeser
 const sonicStepsImages = [SonicSteps, SonicKids, SonicTallKid, SonicBuild, SonicBuild2];
 const particlesImages = [Particles, ParticleBoxes, ParticlesCircuit];
 const binariesImages = [Binaries, BinariesClose, BinariesMakey, BinariesWall, BinariesWiring];
+const lumenImages = [LumenCordis, LumenCordisClose];
 
 function InteractiveArt() {
   useEffect(() => {
@@ -52,6 +55,8 @@ function InteractiveArt() {
 
       <div className="container">
         <div className="section">
+          <Project href="#modal14" id="modal14" className="col s12" imgSrc={LumenCordis} title="Lumen Cordis" description="is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat." modalDescription="“Lumen Cordis” is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat. The amplitude of that sound is then translated to brightness values that you see in the LEDs, illuminating the panes of etched glass. Each pane of glass has a different segmented part of an anatomical heart. When properly aligned by the participant, it creates one dimensional image." imageArray={lumenImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Ableton Live", "LEDs", "Custom-Made Force Sensitive Resistor"]} links={["https://www.instagram.com/p/CG2pYYIAaLN/"]}/>
+
           <Project href="#modal9" id="modal9" className="col s12" imgSrc={MovingDolls} title="The Moving Dolls" description="is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020." modalDescription="“The Moving Dolls” is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020. This piece utilized facial recognition software (OpenCV) to track the movement of participants, relaying that information to servo motors sewn into the bodies of thirteen dolls on a shelf." imageArray={movingDollsImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "OpenCV", "Servo Motors", "Relay Modules"]} links={["https://vimeo.com/452711450"]}/>
           <br/>
 
