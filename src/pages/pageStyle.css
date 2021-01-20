@@ -30,10 +30,10 @@
   }
 }
 
-/* .col-sm12-m6-l6 {
-  display: flex;
-  justify-content: center;
-} */
+button {
+  background-image: url("../images/dollhouse4.jpg");
+  opacity: 80%;
+}
 
 /* Styling for contact page */
 #github {
