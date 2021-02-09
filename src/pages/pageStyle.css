@@ -30,9 +30,9 @@
   }
 }
 
-button {
+.btn-large {
   background-image: url("../images/dollhouse4.jpg");
-  opacity: 80%;
+  opacity: 75%;
 }
 
 /* Styling for contact page */
