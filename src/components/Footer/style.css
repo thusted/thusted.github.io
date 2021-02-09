@@ -6,11 +6,6 @@
   color: black;
 }
 
-#footerContainer {
-  display: flex;
-  justify-content: center;
-}
-
 a {
   padding: 1rem;
 }

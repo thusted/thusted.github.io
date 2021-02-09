@@ -28,7 +28,7 @@ function Footer() {
   return(
     <footer className="page-footer">
       <div id="footerContainer" className="row">
-        <div class="col s12 m8 l8">
+        <div class="col s12 m6 l6">
           <div class="card body" id="contactCard">
             <form id="mail">
               <div class="form-group">
@@ -43,21 +43,21 @@ function Footer() {
           </div>
         </div>
 
-        <div class="col s12 m12 l4">
+        <div class="col s12 m6 l6">
           <div class="pagesContainer">
-            <div class="col s12 m4 l4">
+            <div class="col s4 m4 l4">
               <a href="https://github.com/thusted">
                 <img className="hoverable" id="github" src={Github} alt="githubImg"/>
               </a>
             </div>
 
-            <div class="col s12 m4 l4">
+            <div class="col s4 m4 l4">
               <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
                 <img className="hoverable" id="linkedin" src={Linkedin} alt="linkedImg"/>
               </a>
             </div>
 
-            <div class="col s12 m4 l4">
+            <div class="col s4 m4 l4">
               <a href={Resume}>
                 <img className="hoverable" id="resume" src={ResumeIcon} alt="resumeImg"/>
               </a>
