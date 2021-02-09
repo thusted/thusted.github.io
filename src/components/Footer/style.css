@@ -10,7 +10,7 @@ a {
   padding: 1rem;
 }
 
-button {
+#sendBtn {
   background-image: url("../../images/dollhouse4.jpg");
-  opacity: 80%;
+  opacity: 75%;
 }
