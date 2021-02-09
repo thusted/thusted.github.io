@@ -10,7 +10,7 @@ import "./style.css";
 import Github from "../../images/github.png";
 import Linkedin from "../../images/linkedin.png";
 import ResumeIcon from "../../images/resumeIcon.png";
-import Resume from "../../images/web_development.pdf";
+import Resume from "../../images/webdevResume.pdf";
 
 function Footer() {
   useEffect(() => {
