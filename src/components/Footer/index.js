@@ -32,7 +32,7 @@ function Footer() {
           <div class="card body" id="contactCard">
             <form id="mail">
               <div class="form-group">
-                <label for="msgInput">Don't Be Shy, Say Hi!</label>
+                <label for="msgInput">Don't Be Shy, Say Hi! Fill out the text box to send me an email.</label>
                 <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
               </div>
               <br/>
