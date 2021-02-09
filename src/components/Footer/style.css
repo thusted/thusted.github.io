@@ -9,3 +9,8 @@
 a {
   padding: 1rem;
 }
+
+button {
+  background-image: url("../../images/dollhouse4.jpg");
+  opacity: 80%;
+}
