@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "773c20a14d3fea700c725b6906a4abd0",
+    "revision": "22679654303dd868ed796facc060015a",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.6e67e90c.chunk.css"
   },
   {
-    "revision": "1a6aef7f1421fa838bec",
-    "url": "/static/css/main.9c3813f4.chunk.css"
+    "revision": "5af5ea9cb4e373f2391a",
+    "url": "/static/css/main.8a8222cb.chunk.css"
   },
   {
     "revision": "15328f6945e26c0ec3b8",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d568fc48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a6aef7f1421fa838bec",
+    "revision": "5af5ea9cb4e373f2391a",
     "url": "/static/js/main.ffb6e254.chunk.js"
   },
   {
@@ -106,10 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95420f183ab5cfef0a36a0823115b801",
     "url": "/static/media/dollhouse3.95420f18.jpg"
-  },
-  {
-    "revision": "7ed1642d718a4256b24dd67e008b3764",
-    "url": "/static/media/dollhouse4.7ed1642d.jpg"
   },
   {
     "revision": "3c12b9adc6dfff8532a14dae611dee11",
