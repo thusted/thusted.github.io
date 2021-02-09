@@ -28,7 +28,7 @@ function Footer() {
   return(
     <footer className="page-footer">
       <div id="footerContainer" className="row">
-        <div class="col s12 m12 l8">
+        <div class="col s12 m8 l8">
           <div class="card body" id="contactCard">
             <form id="mail">
               <div class="form-group">
