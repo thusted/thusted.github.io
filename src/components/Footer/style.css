@@ -10,10 +10,10 @@ a {
   padding: 1rem;
 }
 
-/* #sendBtn {
-  background-image: url("../../images/dollhouse4.jpg");
+#sendBtn {
+  background: url("../../images/dollhouse4.jpg");
   opacity: 75%;
-} */
+}
 
 /* Styling for contact icons */
 #github {

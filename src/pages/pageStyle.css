@@ -30,7 +30,7 @@
   }
 }
 
-/* .btn-large {
-  background-image: url("../images/dollhouse4.jpg");
+.btn-large {
+  background: url("../images/dollhouse4.jpg");
   opacity: 75%;
-} */
+}
