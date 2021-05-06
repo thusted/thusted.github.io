@@ -30,34 +30,7 @@
   }
 }
 
-/* Styling for contact page */
-#github {
-  max-width: 100%;
-  max-height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#linkedin {
-  max-width: 100%;
-  max-height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-#resume {
-  max-width: 100%;
-  max-height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.contactIconTitles {
-  display: flex;
-  justify-content: center;
-}
-
-#contactCard {
-  padding: 1rem;
+.btn-large {
+  background: url("../images/dollhouse4.jpg");
+  opacity: .75;
 }
