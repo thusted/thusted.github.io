@@ -22,6 +22,10 @@ import DollhouseDesert from "../images/dollhouseDesert.jpeg";
 import DollhouseHeart from "../images/dollhouseHeart.jpeg";
 import DollhousePig from "../images/dollhousePig.jpeg";
 import DollhouseTable from "../images/dollhouseTable.jpeg";
+import Github from "../images/github.png";
+import Linkedin from "..//images/linkedin.png";
+import ResumeIcon from "../images/resumeIcon.png";
+import Resume from "../images/webdevResume.pdf";
 
 //Import components
 import Header from "../components/Header";
@@ -57,15 +61,53 @@ function Home() {
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>
-              <h4>ABOUT</h4>
+              <h4 id="aboutMe">ABOUT</h4>
               <div className="row">
                 <div className="col s12 m6 l6">
-                  <p className="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in Full Stack Web Development with newly acquired skills in HTML5, CSS3,
-                  JavaScript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways users interact with various interfaces. I integrate that knowledge into my work and am committed to approaching any project with innovation and creativity.</p>
+                  <p className="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in Full Stack Web Development with newly acquired skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways users interact with various interfaces. I integrate that knowledge into my work and am committed to approaching any project with innovation and creativity.</p>
+
                   <p className="left-align light">I am currently open to work and am always interested in collaborating with other coders and artists, so please don't hesitate to reach out to me at <a style={{padding:0}} href="." onClick={composeEmail}>tiana.husted@gmail.com</a>.</p>
-                </div>
+
+                  <div className="col s12 m8 l8">
+                    <div className="pagesContainer">
+                      <div className="col s4 m4 l4">
+                        <a href="https://github.com/thusted">
+                          <img className="hoverable" id="github" src={Github} alt="githubImg"/>
+                        </a>
+                      </div>
+
+                      <div className="col s4 m4 l4">
+                        <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
+                          <img className="hoverable" id="linkedin" src={Linkedin} alt="linkedImg"/>
+                        </a>
+                      </div>
+
+                      <div className="col s4 m4 l4">
+                        <a href={Resume}>
+                          <img className="hoverable" id="resume" src={ResumeIcon} alt="resumeImg"/>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
                 <div className="col s12 m6 l6">
                   <img id="me" src={Me} alt="me"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col s12 m12 l12">
+                  <div className="card body" id="contactCard">
+                    <form id="mail">
+                      <div className="form-group">
+                        <label for="msgInput">Don't Be Shy, Say Hi! Fill out the text box below to send me an email.</label>
+                        <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
+                      </div>
+                      <br/>
+                      <button id="sendBtn" className="btn waves-effect" type="submit" name="action" onClick={composeEmail}>
+                        <i className="material-icons">send</i>
+                      </button>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
