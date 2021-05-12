@@ -24,7 +24,6 @@ function App() {
           <Route exact path="/webdevelopment" component={WebDev} />
           <Route exact path="/interactiveart" component={InteractiveArt} />
         </Router>
-        <Footer/>
       </div>
     
   );
