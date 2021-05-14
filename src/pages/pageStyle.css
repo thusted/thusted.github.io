@@ -35,6 +35,24 @@
   opacity: .75;
 }
 
+#alertifyProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#dollhouseProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bezierProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Styling for contact icons */
 #github {
   max-width: 100%;
