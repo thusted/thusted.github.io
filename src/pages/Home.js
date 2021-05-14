@@ -136,6 +136,7 @@ function Home() {
 
               <button className="btn-large hoverable">
                 <Link
+                  id="alertifyProject"
                   style={{color:"white"}} 
                   to="/webdevelopment"
                   className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
@@ -148,29 +149,29 @@ function Home() {
             <div id="dollhouseProject" className="col s12 m4 l4">
               <Project2 href="#modal2" id="modal2" imgSrc={DollhouseBack2} title="The Dollhouse" modalDescription="Modeled after a turn of the century Victorian home, The Dollhouse was a piece comissioned for and featured at Burning Man 2019. The back side of the home had the illusion of being completely exposed to open playa, but was enclosed with clear acrylic paneling. This allowed citizens of Black Rock City to see the illuminated structure, and the participants within, from afar. There are two stories, each with two rooms, conventional to the Victorian era: ballroom, kitchen, bathroom, and bedroom. Art pieces in the home include photographs and paintings of a family long past, ghostly porcelain dolls, oddities, remnants of a seance gone wrong, an infinity mirror, and window etchings, all of which react to human touch and/or presence. We hoped to create an ethereal world on playa, captivating and enticing people to play and discover more secrets within." imageArray={dollhouseImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Kyma", "MadMapper", "Capacitive Touch Sensors","Servo Motors", "GameTrak", "PPG Heart Sensor", "Relay Modules"]} links={["https://www.youtube.com/watch?v=W9TY_xQfr4Y&t=23s", "https://www.youtube.com/watch?v=FfcdDc0tSdU"]}/>
 
-              <button className="btn-large hoverable">
-                <Link
-                  style={{color:"white"}} 
-                  to="/interactiveart"
-                  className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
-                >
-                  ALL INTERACTIVE ART
-                </Link>
-              </button>
+              
+              <Link
+                id="dollhouseProject"
+                style={{color:"white"}} 
+                to="/interactiveart"
+                className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
+              >
+                <button className="btn-large hoverable">ALL INTERACTIVE ART</button>
+              </Link>
             </div>
 
             <div id="bezierProject" className="col s12 m4 l4">
               <Project2 href="#modal3" id="modal3" imgSrc={House} title="Bezier Data Visualization" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
 
-              <button className="btn-large hoverable">
-                <Link
-                  style={{color:"white"}} 
-                  to="/processing"
-                  className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
-                >
-                  ALL PROCESSING(JAVA)
-                </Link>
-              </button>
+              
+              <Link
+                id="bezierProject"
+                style={{color:"white"}} 
+                to="/processing"
+                className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
+              >
+                <button className="btn-large hoverable">ALL PROCESSING(JAVA)</button>
+              </Link>
             </div>
           </div>
         </div>
