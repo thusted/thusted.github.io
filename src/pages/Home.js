@@ -159,7 +159,7 @@ function Home() {
             </div>
 
             <div className="col s12 m4 l4">
-              <Project2 href="#modal16" id="modal16" imgSrc={House} title="Bezier Data Visualization" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
+              <Project2 href="#modal3" id="modal3" imgSrc={House} title="Bezier Data Visualization" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
 
               <button className="btn-large hoverable">
                 <Link
