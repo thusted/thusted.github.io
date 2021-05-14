@@ -13,6 +13,20 @@ function Navbar() {
   return (
     <nav className="white">
       <div className="nav-wrapper" id="nav-web">
+      <ul className="left">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/home"
+                ? "nav-link active"
+                : "nav-link"
+              }
+            >
+              TIANA HO'OLANA HUSTED
+            </Link>
+          </li>
+        </ul>
         <ul className="right">
         <li className="nav-item">
             <Link
