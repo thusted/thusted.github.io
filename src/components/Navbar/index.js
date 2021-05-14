@@ -47,6 +47,14 @@ function Navbar() {
                   Interactive Art
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  to="/processing"
+                  className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
+                >
+                  Processing (Java)
+                </Link>
+              </li>
             </ul>
           </li>
         </ul>

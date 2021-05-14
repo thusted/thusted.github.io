@@ -7,12 +7,12 @@ import "materialize-css/dist/css/materialize.min.css";
 
 //Importing components
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 // Importing pages
 import Home from "./pages/Home";
 import WebDev from "./pages/WebDev";
 import InteractiveArt from "./pages/InteractiveArt";
+import Processing from "./pages/Processing";
 
 function App() {
   return (
@@ -23,6 +23,8 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/webdevelopment" component={WebDev} />
           <Route exact path="/interactiveart" component={InteractiveArt} />
+          <Route exact path="/processing" component={Processing} />
+
         </Router>
       </div>
     
