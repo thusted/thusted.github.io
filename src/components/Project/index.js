@@ -6,18 +6,16 @@ import "./style.css";
 
 function Project ({href, id, className, imgSrc, title, description, modalDescription, imageArray, tech, links}) {
   return (
-    <div className={className}>
-      <a className="modal-trigger" href={href}>
-        <div className="card hoverable">
-          <div className="card-image">
-            <img src={imgSrc} alt="cardImg"/>
+      <div className={className}>
+        <a className="modal-trigger" href={href}>
+          <div className="imageContainer">
+            <img className="image" src={imgSrc} alt="img"/>
+            <div className="overlay">
+              <div className="text">{title}</div>
+            </div>
           </div>
-          <div className="card-content">
-            <p><b>{title}</b> {description}</p>
-          </div>
-        </div>
-      </a>
-      <Modal id={id} title={title} modalDescription={modalDescription} imageArray={imageArray} tech={tech} links={links}/>
+        </a>
+        <Modal id={id} title={title} modalDescription={modalDescription} imageArray={imageArray} tech={tech} links={links}/>
     </div>
   );
 };
