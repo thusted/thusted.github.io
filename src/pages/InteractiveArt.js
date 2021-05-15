@@ -36,8 +36,8 @@ import BinariesClose from "../images/binariesClose.jpeg";
 import BinariesMakey from "../images/binariesMakey.jpeg";
 import BinariesWall from "../images/binariesWall.jpeg";
 import BinariesWiring from "../images/binariesWiring.jpeg";
-import LumenCordis from "../images/lumenCordis.jpeg";
-import LumenCordisClose from "../images/lumenCordisClose.jpeg";
+import Beat from "../images/lumenCordis.jpeg";
+import BeatClose from "../images/lumenCordisClose.jpeg";
 
 // Importing components
 import Project from "../components/Project";
@@ -51,7 +51,7 @@ const dollhouseImages = [Dollhouse, DollhouseBack2, DollhouseDark, DollhouseBack
 const sonicStepsImages = [SonicSteps, SonicKids, SonicTallKid, SonicBuild, SonicBuild2];
 const particlesImages = [Particles, ParticleBoxes, ParticlesCircuit];
 const binariesImages = [Binaries, BinariesClose, BinariesMakey, BinariesWall, BinariesWiring];
-const lumenImages = [LumenCordis, LumenCordisClose];
+const beatImages = [Beat, BeatClose];
 
 function InteractiveArt() {
   useEffect(() => {
@@ -69,9 +69,9 @@ function InteractiveArt() {
       <div className="container">
         <div className="section">
           <div className="row">
-            <Project href="#modal10" id="modal10" className="col s12 m4 l4" imgSrc={Blink} title="Blink" modalDescription="“Blink” is a collaborative piece between House of Strange Rituals and the newly formed queer art collective, AHFEMME. This interactive exhibit sits at the intersection of sculpture, nature, technology, fashion, and performance.  A surrealistic depiction of the natural world that elicits wonder. Inside of this magnified ecosystem you will find felted bees, honey hives, and giant poppy pods that awaken as the public pass by. Additionally, come visit during the March and April First Friday Artwalk to witness this dreamlike universe take on another dimension. Performers, transformed into Queen bees, will inhabit the space turning this fantasy into their honeycomb home. During a time when the outside world feels overwhelming, this mesmerizing universe invites participants to look and be captured by illusion. Buzz by, it will happen in a Blink." imageArray={blinkImages} tech={["Arduino Uno", "Arduino IDE", "Max/MSP", "Programmable Par Can Lights and custom DMX controller made with Max/MSP", "16 Channel PWM Servo Drivers", "Servo Motors", "3D Printer"]} links={["https://vimeo.com/529084961", "https://vimeo.com/529207125"]}/>
+            <Project href="#modal10" id="modal10" className="col s12 m4 l4" imgSrc={Blink} title="Blink" modalDescription="“Blink” is a collaborative piece between House of Strange Rituals and the newly formed queer art collective, AHFEMME. This interactive exhibit sits at the intersection of sculpture, nature, technology, fashion, and performance.  A surrealistic depiction of the natural world that elicits wonder. Inside of this magnified ecosystem you will find felted bees, honey hives, and giant poppy pods that awaken as the public pass by. Addtionally, performers, transformed into Queen bees, inhabit the space turning this fantasy into their honeycomb home. During a time when the outside world feels overwhelming, this mesmerizing universe invites participants to look and be captured by illusion." imageArray={blinkImages} tech={["Arduino Uno", "Arduino IDE", "Max/MSP", "Programmable Par Can Lights and custom DMX controller made with Max/MSP", "16 Channel PWM Servo Drivers", "Servo Motors", "3D Printer"]} links={["https://vimeo.com/529084961", "https://vimeo.com/529207125"]}/>
 
-            <Project href="#modal11" id="modal11" className="col s12 m4 l4" imgSrc={LumenCordis} title="Lumen Cordis" description="is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat. Comissioned for and featured at BEAM 2020." modalDescription="“Lumen Cordis” is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat. The amplitude of that sound is then translated to brightness values that you see in the LEDs, illuminating the panes of etched glass. Each pane of glass has a different segmented part of an anatomical heart. When properly aligned by the participant, it creates one dimensional image." imageArray={lumenImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Ableton Live", "LEDs", "Custom-Made Force Sensitive Resistor"]} links={["https://www.instagram.com/p/CG2pYYIAaLN/"]}/>
+            <Project href="#modal11" id="modal11" className="col s12 m4 l4" imgSrc={Beat} title="Beat" description="is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat. Comissioned for and featured at BEAM 2020." modalDescription="“Beat” is an interactive installation where participants can step on a force sensitive resistor to trigger the sound of a heartbeat. The amplitude of that sound is then translated to brightness values that you see in the LEDs, illuminating the panes of etched glass. Each pane of glass has a different segmented part of an anatomical heart. When properly aligned by the participant, it creates one dimensional image." imageArray={beatImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Ableton Live", "LEDs", "Custom-Made Force Sensitive Resistor"]} links={["https://www.instagram.com/p/CG2pYYIAaLN/"]}/>
 
             <Project href="#modal12" id="modal12" className="col s12 m4 l4" imgSrc={MovingDolls} title="The Moving Dolls" description="is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience, 2020." modalDescription="“The Moving Dolls” is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020. This piece utilized facial recognition software (OpenCV) to track the movement of participants, relaying that information to servo motors sewn into the bodies of thirteen dolls on a shelf." imageArray={movingDollsImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "OpenCV", "Servo Motors", "Relay Modules"]} links={["https://vimeo.com/452711450"]}/>
           </div>
