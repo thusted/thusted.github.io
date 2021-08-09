@@ -55,6 +55,7 @@
 
 /* Styling for contact icons */
 #github {
+  padding: 5px;
   max-width: 100%;
   max-height: auto;
   display: flex;
@@ -63,6 +64,7 @@
 }
 
 #linkedin {
+  padding: 5px;
   max-width: 100%;
   max-height: auto;
   display: flex;
@@ -70,6 +72,7 @@
 }
 
 #resume {
+  padding: 5px;
   max-width: 100%;
   max-height: auto;
   display: flex;
