@@ -6,8 +6,8 @@ import "./style.css";
 function Header ({title, subtitle}) {
   return (
     <div id="name-container">
-      <h4>{title}</h4>
-      <h6>{subtitle}</h6>
+      <h3><b>{title}</b></h3>
+      <h6><b>{subtitle}</b></h6>
     </div>
   );
 };
