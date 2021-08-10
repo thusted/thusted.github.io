@@ -54,11 +54,10 @@ function Home() {
     
   return (
     <div>
-      <Header title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
-      <br/>
-
       <div id="index-banner" className="parallax-container">
-        <div className="parallax"><img src={Dollhouse1} alt="Unsplashed background img 1"/></div>
+        <div className="parallax"><img src={Dollhouse} alt="Unsplashed background img 1"/>
+        </div>
+        <Header title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
       </div>
 
       <div className="container">
