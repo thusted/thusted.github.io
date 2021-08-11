@@ -33,6 +33,7 @@ import ResumeIcon from "../images/resumeIcon.png";
 import Resume from "../images/webdevResume.pdf";
 
 //Import components
+import MainHeader from "../components/MainHeader";
 import Header from "../components/Header";
 import Project from "../components/Project";
 
@@ -59,7 +60,7 @@ function Home() {
       <div id="index-banner" className="parallax-container">
         <div className="parallax"><img src={BlinkBackground} alt="Unsplashed background img 1"/>
         </div>
-        <Header title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
+        <MainHeader title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
       </div>
 
       <div className="container">
