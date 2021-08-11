@@ -62,7 +62,7 @@ function InteractiveArt() {
   });
     
   return (
-    <div>
+    <div id="artContainer">
       <Header title="INTERACTIVE ART" subtitle="PAST PROJECTS"/>
       <br/>
 
