@@ -6,6 +6,8 @@ import M from "materialize-css";
 import "./pageStyle.css";
 
 //Import images
+import BlinkBackground from "../images/blinkBackground1.jpg";
+import BlinkBackground2 from "../images/blinkBackground2.jpg";
 import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
 import Dollhouse2 from "../images/dollhouse2.jpg";
@@ -55,7 +57,7 @@ function Home() {
   return (
     <div>
       <div id="index-banner" className="parallax-container">
-        <div className="parallax"><img src={Dollhouse} alt="Unsplashed background img 1"/>
+        <div className="parallax"><img src={BlinkBackground} alt="Unsplashed background img 1"/>
         </div>
         <Header title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
       </div>
@@ -65,7 +67,7 @@ function Home() {
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>
-              <h4 id="aboutMe">ABOUT</h4>
+              <h4 id="aboutMe"><b>ABOUT</b></h4>
               <div className="row">
                 <div className="col s12 m8 l8">
                   <p className="left-align light">Web developer with a background in tech-based art and a passion for learning new technologies. Certificate from University of Oregon Coding Bootcamp in Full Stack Web Development with newly acquired skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS. Extensive experience with custom interface design for interactive art installations, utilizing microprocessors and sensors. Through the creation of immersive art environments, I have developed a keen sense for anticipating different ways users interact with various interfaces. I integrate that knowledge into my work and am committed to approaching any project with innovation and creativity.</p>
