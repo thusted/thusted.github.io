@@ -8,9 +8,7 @@ import "./pageStyle.css";
 //Import images
 import BlinkBackground from "../images/blinkBackground1.jpg";
 import BlinkBackground2 from "../images/blinkBackground2.jpg";
-import Dollhouse1 from "../images/dollhouse1.jpg";
 import Me from "../images/me.png";
-import Dollhouse2 from "../images/dollhouse2.jpg";
 import Alertify from "../images/alertify.jpeg";
 import AlertifyLogin from "../images/alertifyLogin.jpeg";
 import AlertifySignIn from "../images/alertifySignIn.jpeg";
@@ -18,7 +16,6 @@ import AlertifySignUp from "../images/alertifySignUp.jpeg";
 import AlertifyTracker from "../images/alertifyTracker.jpeg";
 import DollhouseBack from "../images/dollhouseBack.jpeg";
 import DollhouseBack2 from "../images/dollhouseBack2.jpeg";
-import Dollhouse3 from "../images/dollhouse3.jpg";
 import Dollhouse from "../images/dollhouse.jpeg";
 import DollhouseDark from "../images/dollhouseDark.jpeg";
 import DollhouseDesert from "../images/dollhouseDesert.jpeg";
