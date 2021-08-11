@@ -56,6 +56,10 @@
   justify-content: center;
 }
 
+#aboutMe {
+  text-align: left;
+}
+
 /* Styling for contact icons */
 #github {
   padding: 5px;
