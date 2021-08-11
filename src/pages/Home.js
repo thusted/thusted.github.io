@@ -124,7 +124,7 @@ function Home() {
       <div className="parallax-container valign-wrapper">
         <div className="parallax"><img src={BlinkBackground2} alt="Unsplashed background img 2"/></div>
         <div className="container">
-          <div className="section">
+          
             <Header title="FEATURED PROJECTS" subtitle="PAST WORK"/>
             <br/>
             
@@ -172,7 +172,7 @@ function Home() {
                 </Link>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </div>

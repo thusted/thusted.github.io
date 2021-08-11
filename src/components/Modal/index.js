@@ -1,5 +1,8 @@
 import React from "react";
 
+//Import css
+import "./style.css";
+
 //Import components
 import Slider from "../Slider";
 
@@ -10,17 +13,17 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
       <div className="modal-content">
         <div>
           <h4 className="text-center">{title}</h4>
-          <p>{modalDescription}</p>
+          <p className="modalDescription">{modalDescription}</p>
           <br/>
 
           <Slider imageArray={imageArray}/>
           <br/>
 
-          <h5>Technologies Used</h5>
-            {tech.join(", ")}
+          <h5 className="techUsed">Technologies Used</h5>
+            <div className="tech">{tech.join(", ")}</div>
           <br/><br/>
       
-          <h5>Links</h5>
+          <h5 className="link">Links</h5>
             {links.map((link) => (
               <div key={link}>
                 <a href={link}>{link}</a>
