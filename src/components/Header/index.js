@@ -1,7 +1,7 @@
 import React from "react";
 
 //Import css
-import "./style.css";
+import "./headerStyle.css";
 
 function Header ({title, subtitle}) {
   return (
