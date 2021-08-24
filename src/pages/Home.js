@@ -99,7 +99,7 @@ function Home() {
                       </div>
 
                       <div className="col s4 m4 l4">
-                        <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
+                        <a href="https://www.linkedin.com/in/tiana-husted-395057163/" target="_blank" rel="noreferrer noopener">
                           <img className="hoverable" id="linkedin" src={Linkedin} alt="linkedImg"/>
                         </a>
                       </div>
