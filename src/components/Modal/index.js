@@ -26,7 +26,7 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
           <h5 className="link">Links</h5>
             {links.map((link) => (
               <div key={link}>
-                <a href={link}>{link}</a>
+                <a href={link} target="_blank" rel="noreferrer noopener">{link}</a>
                 <br/>
               </div>
             ))}
