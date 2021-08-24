@@ -93,7 +93,7 @@ function Home() {
                   <div className="col s12 m8 l8">
                     <div className="pagesContainer">
                       <div className="col s4 m4 l4">
-                        <a href="https://github.com/thusted">
+                        <a href="https://github.com/thusted" target="_blank" rel="noreferrer noopener">
                           <img className="hoverable" id="github" src={Github} alt="githubImg"/>
                         </a>
                       </div>
