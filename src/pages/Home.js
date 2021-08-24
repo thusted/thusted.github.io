@@ -105,7 +105,7 @@ function Home() {
                       </div>
 
                       <div className="col s4 m4 l4">
-                        <a href={Resume}>
+                        <a href={Resume} target="_blank" rel="noreferrer noopener">
                           <img className="hoverable" id="resume" src={ResumeIcon} alt="resumeImg"/>
                         </a>
                       </div>
