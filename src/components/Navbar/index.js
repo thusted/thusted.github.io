@@ -89,11 +89,11 @@ function Navbar() {
             Home
           </Link>
         </li>
-        
+
         {/* Dropdown Trigger */}
         <li>
-          <a className="dropdown-trigger" href="#!" data-target="dropdown">Projects<i className="material-icons right">arrow_drop_down</i></a>
-          <ul id="dropdown" className="dropdown-content">
+          <a className="dropdown-trigger" href="#!" data-target="dropdownSmall">Projects<i className="material-icons right">arrow_drop_down</i></a>
+          <ul id="dropdownSmall" className="dropdown-content">
             <li className="nav-item">
               <Link
                 to="/webdevelopment"
