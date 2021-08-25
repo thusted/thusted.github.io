@@ -42,7 +42,10 @@ const bezierImages = [House, Senate];
 function Home() {
   useEffect(() => {
     const elems = document.querySelectorAll('.slider');
+    const navElems = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(navElems);
     M.Slider.init(elems);
+    
     M.AutoInit();
   })
 
