@@ -138,7 +138,6 @@ function Home() {
                 <button className="btn-large hoverable">
                   <Link
                     id="alertifyProject"
-                    style={{color:"black"}} 
                     to="/webdevelopment"
                     className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
                   >
@@ -153,7 +152,6 @@ function Home() {
                 <button className="btn-large hoverable">
                   <Link
                     id="dollhouseProject"
-                    style={{color:"black"}} 
                     to="/interactiveart"
                     className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
                   >
@@ -168,7 +166,6 @@ function Home() {
                 <button className="btn-large hoverable">
                   <Link
                     id="bezierProject"
-                    style={{color:"black"}} 
                     to="/processing"
                     className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
                   >
