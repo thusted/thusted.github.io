@@ -128,7 +128,7 @@ function Home() {
         <div className="parallax"><img src={BlinkBackground2} alt="Unsplashed background img 2"/></div>
         <div className="container">
           
-            <Header title="FEATURED PROJECTS" subtitle="PAST WORK" />
+            <Header title="FEATURED PROJECTS" subtitle="PAST WORK" id="featuredProjectsTitle"/>
             <br/>
             
             <div className="row">
