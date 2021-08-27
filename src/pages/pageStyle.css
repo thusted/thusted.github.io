@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 380px;
-  height: 700px;
+  height: 1000px;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -32,10 +32,12 @@
   }
 }
 
+/* Buttons  */
 .btn-large, #sendBtn {
   background: url("../images/blinkBackground3.jpg");
 }
 
+/* Featured Projects on homepage */
 #alertifyProject {
   display: flex;
   flex-direction: column;
