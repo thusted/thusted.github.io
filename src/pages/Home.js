@@ -86,7 +86,7 @@ function Home() {
                             <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
                           </div>
                           <br/>
-                          <button id="sendBtn" className="btn waves-effect" type="submit" name="action" onClick={composeEmail}>
+                          <button id="sendBtn" className="btn waves-effect hoverable" type="submit" name="action" onClick={composeEmail}>
                             <i className="material-icons">send</i>
                           </button>
                         </form>
