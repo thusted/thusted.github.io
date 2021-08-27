@@ -38,29 +38,37 @@
 }
 
 /* Featured Projects on homepage */
-#alertifyProject {
+#alertifyProjectContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#alertifyProject {
   color: white;
   text-shadow: 2px 2px #000000;
+}
+
+#dollhouseProjectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #dollhouseProject {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: white;
   text-shadow: 2px 2px #000000;
 }
 
-#bezierProject {
+#bezierProjectContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#bezierProject {
   color: white;
   text-shadow: 2px 2px #000000;
-
 }
 
 #aboutMe {
