@@ -19,7 +19,7 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
 
           <Slider imageArray={imageArray}/>
           <MaterialBox imageArray={imageArray}/>
-          <br/>
+          <br/><br/>
 
           <h5 className="techUsed">Technologies Used</h5>
             <div className="tech">{tech.join(", ")}</div>
