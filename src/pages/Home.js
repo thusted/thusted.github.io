@@ -45,7 +45,6 @@ function Home() {
     const navElems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(navElems);
     M.Slider.init(elems);
-    
     M.AutoInit();
   })
 

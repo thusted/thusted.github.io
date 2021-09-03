@@ -9,7 +9,7 @@ function Slider({imageArray}) {
       <div className="slider">
         <ul className="slides">
           {imageArray.map((image) => (
-            <li key={image}><img className="sliderImg" alt="sliderImg" src={image}/></li>
+            <li key={image}><img className="responsive-img" alt="sliderImg" src={image}/></li>
           ))}
         </ul>
       </div>
