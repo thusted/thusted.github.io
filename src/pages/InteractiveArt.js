@@ -5,6 +5,9 @@ import M from "materialize-css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+//Importing style
+import "./pageStyle.css";
+
 // Importing images
 import Blink from "../images/blink.JPG";
 import Blink2 from "../images/blink2.jpeg";
@@ -66,7 +69,7 @@ function InteractiveArt() {
       <Header title="INTERACTIVE ART" subtitle="PAST PROJECTS"/>
       <br/>
 
-      <div className="container">
+      <div className="artProjectsContainer">
         <div className="section">
           <div className="row">
             <Project href="#modal10" id="modal10" className="col s12 m4 l4" imgSrc={Blink} title="BLINK" modalDescription="“Blink” is a collaborative piece between House of Strange Rituals and the newly formed queer art collective, AHFEMME. This interactive exhibit sits at the intersection of sculpture, nature, technology, fashion, and performance.  A surrealistic depiction of the natural world that elicits wonder. Inside of this magnified ecosystem you will find felted bees, honey hives, and giant poppy pods that awaken as the public pass by. Addtionally, performers, transformed into Queen bees, inhabit the space turning this fantasy into their honeycomb home. During a time when the outside world feels overwhelming, this mesmerizing universe invites participants to look and be captured by illusion." imageArray={blinkImages} tech={["Arduino Uno", "Arduino IDE", "Max/MSP", "Programmable Par Can Lights and custom DMX controller made with Max/MSP", "16 Channel PWM Servo Drivers", "Servo Motors", "3D Printer"]} links={["https://vimeo.com/529084961", "https://vimeo.com/529207125"]}/>
