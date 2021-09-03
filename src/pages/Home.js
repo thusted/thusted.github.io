@@ -143,6 +143,7 @@ function Home() {
                     ALL WEB DEVELOPEMENT
                   </Link>
                 </button>
+                <br/>
               </div>
 
               <div id="dollhouseProjectContainer" className="col s12 m4 l4">
@@ -157,6 +158,7 @@ function Home() {
                     ALL INTERACTIVE ART
                   </Link>
                 </button>
+                <br/>
               </div>
 
               <div id="bezierProjectContainer" className="col s12 m4 l4">
@@ -172,6 +174,7 @@ function Home() {
                   </Link>
                 </button>
               </div>
+              <br/>
             </div>
           
         </div>
