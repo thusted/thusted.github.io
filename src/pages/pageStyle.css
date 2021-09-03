@@ -32,6 +32,11 @@
   }
 }
 
+/* Padding for homepage sections */
+.projectSection {
+  padding: 2rem;
+}
+
 /* Buttons  */
 .btn-large, #sendBtn {
   background: url("../images/blinkBackground3.jpg");

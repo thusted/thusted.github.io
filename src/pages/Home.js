@@ -63,7 +63,7 @@ function Home() {
       </div>
 
       <div className="container">
-        <div className="section">
+        <div className="section" id="aboutSection">
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>
@@ -125,8 +125,7 @@ function Home() {
 
       <div className="parallax-container valign-wrapper">
         <div className="parallax"><img src={BlinkBackground2} alt="Unsplashed background img 2"/></div>
-        <div className="container">
-          
+        <div className="projectSection">
             <Header title="FEATURED PROJECTS" subtitle="PAST WORK" id="featuredProjectsTitle"/>
             <br/>
             
@@ -164,19 +163,20 @@ function Home() {
               <div id="bezierProjectContainer" className="col s12 m4 l4">
                 <Project href="#modal3" id="modal3" imgSrc={House} title="BEZIER DATA VISUALIZATION" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
 
+                
                 <button className="btn-large hoverable">
                   <Link
-                    id="bezierProject"
-                    to="/processing"
-                    className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
+                  id="bezierProject"
+                  to="/processing"
+                  className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
                   >
                     ALL PROCESSING(JAVA)
                   </Link>
                 </button>
+                
               </div>
               <br/>
             </div>
-          
         </div>
       </div>
     </div>
