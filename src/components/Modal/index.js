@@ -5,6 +5,7 @@ import "./style.css";
 
 //Import components
 import Slider from "../Slider";
+import MaterialBox from "../MaterialBox";
 
 function Modal ({id, title, modalDescription, imageArray, tech, links}) {
   if(tech && links){
@@ -17,6 +18,7 @@ function Modal ({id, title, modalDescription, imageArray, tech, links}) {
           <br/>
 
           <Slider imageArray={imageArray}/>
+          <MaterialBox imageArray={imageArray}/>
           <br/>
 
           <h5 className="techUsed">Technologies Used</h5>
