@@ -6,7 +6,7 @@ import "./style.css";
 function Slider({imageArray}) {
   if(imageArray){
     return (
-      <div className="slider">
+      <div className="slider hide-on-small-and-down">
         <ul className="slides">
           {imageArray.map((image) => (
             <li key={image}><img className="responsive-img" alt="sliderImg" src={image}/></li>
