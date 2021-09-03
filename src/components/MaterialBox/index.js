@@ -3,7 +3,7 @@ import React from "react";
 function MaterialBox ({imageArray}) {
   if(imageArray) {
     return (
-      <div className="show-on-med-and-down">
+      <div className="hide-on-med-and-up">
         <div>Hi</div>
       </div>
     ); 
