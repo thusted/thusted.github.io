@@ -62,8 +62,8 @@ function Home() {
         <MainHeader title="TIANA HO'OLANA HUSTED" subtitle="WEB AND SOFTWARE DEVELOPER • TECH-BASED ARTIST"/>
       </div>
 
-      <div className="container">
-        <div className="section" id="aboutSection">
+      <div className="aboutSection">
+        <div className="section">
           <div className="row">
             <div className="col s12 center">
               <h3><i className="mdi-content-send brown-text"></i></h3>

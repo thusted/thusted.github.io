@@ -33,6 +33,10 @@
 }
 
 /* Padding for homepage sections */
+.aboutSection {
+  padding: 2rem;
+}
+
 .projectSection {
   padding: 2rem;
 }
