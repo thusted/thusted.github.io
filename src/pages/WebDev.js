@@ -47,7 +47,7 @@ function WebDev() {
       <Header title="WEB DEVELOPMENT" subtitle="PAST PROJECTS"/>
       <br/>
 
-      <div className="container">
+      <div className="webdevProjectsContainer">
         <div className="section">
           <div className="row">
             <Project href="#modal4" id="modal4" className="col s12 m4 l4" imgSrc={Advotecate} title="ADVOTECATE" description="is your advocate to your voting needs! Our app shows users how to register to vote, where the nearest polls are, sends text reminders near voting dates, and provides information of how to vote by mail." modalDescription="AdVOTEcate is your advocate to your voting needs! Our app shows users how to register to vote, where the nearest polls are, sends text reminders near voting dates, and provides information of how to vote by mail." imageArray={advotecateImages} tech={["Javascript", "React", "Express", "Axios", "Node", "MongoDB", "Material UI", "Google Maps API", "Passport", "Quick Easy SMS API", "HTML", "CSS"]} links={["https://github.com/thusted/adVOTEcate", "https://www.youtube.com/watch?v=7EO6hS_wm4g"]}/>
