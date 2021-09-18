@@ -36,7 +36,7 @@ function Processing() {
       <Header title="PROCESSING (JAVA)" subtitle="PAST PROJECTS"/>
       <br/>
 
-      <div className="container">
+      <div className="processingProjectsContainer">
         <div className="section">
           <div className="row">
             <Project href="#modal3" id="modal3" className="col s12 m6 l6" imgSrc={House} title="BEZIER DATA VISUALIZATION" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
