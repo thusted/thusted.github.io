@@ -39,7 +39,7 @@ function WebDesign() {
       <div className="webDesignProjectsContainer">
         <div className="section">
           <div className="row">
-            <Project href="#modal17" id="modal17" className="col s12 m4 l4" imgSrc={AhfemmeCover} title="AHFEMME" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={ahfemmeImages} tech={["Made with Squarespace"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
+            <Project href="#modal17" id="modal17" className="col s12 m4 l4" imgSrc={AhfemmeCover} title="AHFEMME" modalDescription="AHFEMME is a queer art collective, birthed from the cosmos. They use a variety of mediums to produce multi-sensory interactive performances and events. This website was created for the artists to let the people know who they are and what they're doing, as well as donate to current and future projects."  imageArray={ahfemmeImages} tech={["Designed and created with Squarespace"]} links={["https://www.ahfemme.com"]}/>
           </div>
         </div>
       </div>
