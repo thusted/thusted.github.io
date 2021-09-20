@@ -28,6 +28,21 @@ import Github from "../images/github.png";
 import Linkedin from "..//images/linkedin.png";
 import ResumeIcon from "../images/resumeIcon.png";
 import Resume from "../images/webdevResume.pdf";
+import AhfemmeCover from "../images/ahfemmeCover.jpeg";
+import Ahfemme1 from "../images/ahfemme1.jpeg";
+import Ahfemme2 from "../images/ahfemme2.jpeg";
+import Ahfemme3 from "../images/ahfemme3.jpeg";
+import Ahfemme4 from "../images/ahfemme4.jpeg";
+import Ahfemme5 from "../images/ahfemme5.jpeg";
+import Ahfemme6 from "../images/ahfemme6.jpeg";
+import Ahfemme7 from "../images/ahfemme7.jpeg";
+import Ahfemme8 from "../images/ahfemme8.jpeg";
+import Ahfemme9 from "../images/ahfemme9.jpeg";
+import Ahfemme10 from "../images/ahfemme10.jpeg";
+import Ahfemme11 from "../images/ahfemme11.jpeg";
+import Ahfemme12 from "../images/ahfemme12.jpeg";
+import Ahfemme13 from "../images/ahfemme13.jpeg";
+import DavidCover from "../images/davidCover.jpeg";
 
 //Import components
 import MainHeader from "../components/MainHeader";
