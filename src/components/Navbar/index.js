@@ -56,14 +56,6 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/webdesign"
-                    className={window.location.pathname === "/webdesign" ? "nav-link active" : "nav-link"}
-                  >
-                    Web Design
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
                     to="/interactiveart"
                     className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
                   >
@@ -108,14 +100,6 @@ function Navbar() {
                 className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
               >
                 Web Development
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/webdesign"
-                className={window.location.pathname === "/webdesign" ? "nav-link active" : "nav-link"}
-              >
-                Web Design
               </Link>
             </li>
             <li className="nav-item">

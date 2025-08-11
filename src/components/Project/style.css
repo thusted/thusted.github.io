@@ -18,14 +18,15 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 98%;
+  height: 99%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.2;
   transition: .5s ease;
-  background-color: #000000;
+  background-color: lavenderblush;
 }
 
 .imageContainer:hover .overlay {
+  background-color: #000000;
   opacity: 0.6;
 }
 
