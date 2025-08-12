@@ -27,7 +27,7 @@ import Senate from "../images/bezierDataVisSenate.jpeg";
 import Github from "../images/github.png";
 import Linkedin from "..//images/linkedin.png";
 import ResumeIcon from "../images/resumeIcon.png";
-import Resume from "../images/webdevResume.pdf";
+import Resume from "../images/TianaHusted_Resume2025.pdf";
 import AhfemmeCover from "../images/ahfemmeCover.jpeg";
 import Ahfemme1 from "../images/ahfemme1.jpeg";
 import Ahfemme2 from "../images/ahfemme2.jpeg";
