@@ -8,7 +8,7 @@ import "./pageStyle.css";
 //Import images
 import BlinkBackground from "../images/blinkBackground1.jpg";
 import BlinkBackground2 from "../images/blinkBackground2.jpg";
-import Me from "../images/me.png";
+import Me from "../images/meUpdated.jpg";
 import Alertify from "../images/alertify.jpeg";
 import AlertifyLogin from "../images/alertifyLogin.jpeg";
 import AlertifySignIn from "../images/alertifySignIn.jpeg";

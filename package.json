@@ -5,15 +5,19 @@
   "homepage": "http://thusted.github.io",
   "dependencies": {
     "@ciar4n/izmir": "^1.0.1",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/postprocessing": "^3.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "aos": "^2.3.4",
     "materialize-css": "^1.0.0-rc.2",
+    "postprocessing": "^6.37.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^5.0.1",
+    "three": "^0.179.1"
   },
   "scripts": {
     "start": "react-scripts start",
