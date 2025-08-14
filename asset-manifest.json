@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17446ae4.css",
-    "main.js": "/static/js/main.9552f42f.js",
+    "main.js": "/static/js/main.a1b52888.js",
     "static/media/blinkBackground2.jpg": "/static/media/blinkBackground2.63f368a98c79fb6015ed.jpg",
     "static/media/blinkBackground1.jpg": "/static/media/blinkBackground1.318512665bbcf2268d05.jpg",
     "static/media/movingDollsCabinet.jpeg": "/static/media/movingDollsCabinet.ebdffce194b47b1a3efe.jpeg",
@@ -15,31 +15,19 @@
     "static/media/blink4.jpg": "/static/media/blink4.37ca1ecf38e3da808e6b.jpg",
     "static/media/blink2.jpeg": "/static/media/blink2.d7f1c74e86bf7727d07c.jpeg",
     "static/media/lumenCordisClose.jpeg": "/static/media/lumenCordisClose.1adf782ce03892ca6433.jpeg",
-    "static/media/ahfemme9.jpeg": "/static/media/ahfemme9.e5ca6e9df899b105a811.jpeg",
     "static/media/movingDolls.jpeg": "/static/media/movingDolls.46e3ba6f219c6ecf77f1.jpeg",
-    "static/media/ahfemme7.jpeg": "/static/media/ahfemme7.837738ee316c786a67c0.jpeg",
-    "static/media/ahfemme8.jpeg": "/static/media/ahfemme8.2d4cfeba96593b0e7c31.jpeg",
-    "static/media/ahfemme6.jpeg": "/static/media/ahfemme6.9ca5fe4dfde67a5180aa.jpeg",
     "static/media/dollhouse.jpeg": "/static/media/dollhouse.080262c8421e985a5aa6.jpeg",
-    "static/media/ahfemme10.jpeg": "/static/media/ahfemme10.33d1710a5df2d102661b.jpeg",
     "static/media/jobSearch.jpeg": "/static/media/jobSearch.61b0f2eb3872ec5926c9.jpeg",
     "static/media/weatherDashboard.jpeg": "/static/media/weatherDashboard.5d0b4df1661dd7ab6063.jpeg",
     "static/media/burgerApp.jpeg": "/static/media/burgerApp.f2fa12b02b573c67e1d2.jpeg",
-    "static/media/ahfemme1.jpeg": "/static/media/ahfemme1.dcc6d4014983d3e1b9ce.jpeg",
-    "static/media/ahfemme3.jpeg": "/static/media/ahfemme3.a22df91d61dbb4d869c5.jpeg",
-    "static/media/ahfemme4.jpeg": "/static/media/ahfemme4.e642a53dfd49710e6e97.jpeg",
     "static/media/binaries.jpeg": "/static/media/binaries.1c91c384f6c7011c7d01.jpeg",
-    "static/media/ahfemme13.jpeg": "/static/media/ahfemme13.dbb769fca0f0c2c0884d.jpeg",
-    "static/media/ahfemme11.jpeg": "/static/media/ahfemme11.a70822410f647b6468f2.jpeg",
     "static/media/alertifyTracker.jpeg": "/static/media/alertifyTracker.61c78a1428ad0f1f83da.jpeg",
     "static/media/sonicKids.jpeg": "/static/media/sonicKids.431ebdd0f8919a60ad49.jpeg",
     "static/media/blink3.JPG": "/static/media/blink3.4182b15f936b28e5a39e.JPG",
-    "static/media/ahfemme2.jpeg": "/static/media/ahfemme2.a3985d15b328fff1ed42.jpeg",
     "static/media/meUpdated.jpg": "/static/media/meUpdated.13ce7f9c4624e6495a22.jpg",
     "static/media/jobSearchHome.jpeg": "/static/media/jobSearchHome.766a0d21051045d39f68.jpeg",
     "static/media/employeeSummary.jpeg": "/static/media/employeeSummary.abedf32ee5a3ace8215d.jpeg",
     "static/media/advotecateEvents2.jpeg": "/static/media/advotecateEvents2.3cea78d2ced5c6b40f41.jpeg",
-    "static/media/ahfemme5.jpeg": "/static/media/ahfemme5.ce561d7a5d4ee3a4d4cd.jpeg",
     "static/media/advotecateEvents1.jpeg": "/static/media/advotecateEvents1.33b419810eedb5bbab60.jpeg",
     "static/media/runawayBeard.jpeg": "/static/media/runawayBeard.85c76c03c524be8fb7dd.jpeg",
     "static/media/runawayPope.jpeg": "/static/media/runawayPope.9ccb43c799f008cd79f1.jpeg",
@@ -58,9 +46,7 @@
     "static/media/binariesMakey.jpeg": "/static/media/binariesMakey.ac7588a57392ba017177.jpeg",
     "static/media/advotecateProfile.jpeg": "/static/media/advotecateProfile.f969b9fa095302ae390a.jpeg",
     "static/media/alertifySignIn.jpeg": "/static/media/alertifySignIn.2b05be6c9e9c9a2480cb.jpeg",
-    "static/media/ahfemme12.jpeg": "/static/media/ahfemme12.caa742355e0a4a1c1ad8.jpeg",
     "static/media/sonicSteps.jpeg": "/static/media/sonicSteps.a68c0d5f97b92fb14027.jpeg",
-    "static/media/ahfemmeCover.jpeg": "/static/media/ahfemmeCover.ad3883e8c0e868a67d80.jpeg",
     "static/media/bezierDataVisSenate.jpeg": "/static/media/bezierDataVisSenate.c033fb1c7f4aab67b540.jpeg",
     "static/media/TianaHusted_Resume2025.pdf": "/static/media/TianaHusted_Resume2025.9ee93a3b8c182e9ec12f.pdf",
     "static/media/particlesOfTheVoice.jpeg": "/static/media/particlesOfTheVoice.0dd30259ab41d12d10e4.jpeg",
@@ -82,10 +68,10 @@
     "static/media/resumeIcon.png": "/static/media/resumeIcon.4c905abcdf5ee9be651b.png",
     "index.html": "/index.html",
     "main.17446ae4.css.map": "/static/css/main.17446ae4.css.map",
-    "main.9552f42f.js.map": "/static/js/main.9552f42f.js.map"
+    "main.a1b52888.js.map": "/static/js/main.a1b52888.js.map"
   },
   "entrypoints": [
     "static/css/main.17446ae4.css",
-    "static/js/main.9552f42f.js"
+    "static/js/main.a1b52888.js"
   ]
 }
