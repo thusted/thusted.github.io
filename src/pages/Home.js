@@ -28,20 +28,6 @@ import Github from "../images/github.png";
 import Linkedin from "..//images/linkedin.png";
 import ResumeIcon from "../images/resumeIcon.png";
 import Resume from "../images/TianaHusted_Resume2025.pdf";
-import AhfemmeCover from "../images/ahfemmeCover.jpeg";
-import Ahfemme1 from "../images/ahfemme1.jpeg";
-import Ahfemme2 from "../images/ahfemme2.jpeg";
-import Ahfemme3 from "../images/ahfemme3.jpeg";
-import Ahfemme4 from "../images/ahfemme4.jpeg";
-import Ahfemme5 from "../images/ahfemme5.jpeg";
-import Ahfemme6 from "../images/ahfemme6.jpeg";
-import Ahfemme7 from "../images/ahfemme7.jpeg";
-import Ahfemme8 from "../images/ahfemme8.jpeg";
-import Ahfemme9 from "../images/ahfemme9.jpeg";
-import Ahfemme10 from "../images/ahfemme10.jpeg";
-import Ahfemme11 from "../images/ahfemme11.jpeg";
-import Ahfemme12 from "../images/ahfemme12.jpeg";
-import Ahfemme13 from "../images/ahfemme13.jpeg";
 
 //Import components
 import MainHeader from "../components/MainHeader";
@@ -52,7 +38,6 @@ import Project from "../components/Project";
 const alertifyImages = [Alertify, AlertifyLogin, AlertifySignIn, AlertifySignUp, AlertifyTracker];
 const dollhouseImages = [Dollhouse, DollhouseBack2, DollhouseDark, DollhouseBack, DollhouseDesert, DollhouseHeart, DollhousePig, DollhouseTable];
 const bezierImages = [House, Senate];
-const ahfemmeImages = [Ahfemme1, Ahfemme2, Ahfemme3, Ahfemme4, Ahfemme5, Ahfemme6, Ahfemme7, Ahfemme8, Ahfemme9, Ahfemme10, Ahfemme11, Ahfemme12, Ahfemme13];
 
 function Home() {
   useEffect(() => {
@@ -138,60 +123,57 @@ function Home() {
       <div className="parallax-container valign-wrapper">
         <div className="parallax"><img src={BlinkBackground2} alt="Unsplashed background img 2"/></div>
         <div className="projectSection">
-            <Header title="FEATURED PROJECTS" subtitle="PAST WORK" id="featuredProjectsTitle"/>
-            <br/>
-            
-            <div className="row">
-              <div id="alertifyProjectContainer" className="col s12 m4 l4">
-                <Project href="#modal1" id="modal1" imgSrc={Alertify}title="ALERTIFY" modalDescription="Alertify can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker. User will sign up to create an account. Once created, they can login to provide an emergency contact to be alerted if an emergency situation. Within their login, they have a red button to press (Alertify) that sends out a text to their contact with current location to be found with." imageArray={alertifyImages} tech={["HTML", "CSS","JavaScript", "JQuery", "NodeJS", "Sequelize","Passport","BCrypt", "Quick Easy SMS API"]} links={["https://alertifynow.herokuapp.com/", "https://github.com/thusted/Alertify"]}/>
-                <br/>
+          <Header title="FEATURED PROJECTS" subtitle="PAST WORK" id="featuredProjectsTitle"/>
+          <br/>
+          
+          <div className="row">
+            <div id="alertifyProjectContainer" className="col s12 m4 l4">
+              <Project href="#modal1" id="modal1" imgSrc={Alertify}title="ALERTIFY" modalDescription="Alertify can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker. User will sign up to create an account. Once created, they can login to provide an emergency contact to be alerted if an emergency situation. Within their login, they have a red button to press (Alertify) that sends out a text to their contact with current location to be found with." imageArray={alertifyImages} tech={["HTML", "CSS","JavaScript", "JQuery", "NodeJS", "Sequelize","Passport","BCrypt", "Quick Easy SMS API"]} links={["https://alertifynow.herokuapp.com/", "https://github.com/thusted/Alertify"]}/>
+              <br/>
 
-                <button className="btn-large hoverable">
-                  <Link
-                    id="alertifyProject"
-                    to="/webdevelopment"
-                    className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
-                  >
-                    ALL WEB DEVELOPEMENT
-                  </Link>
-                </button>
-                <br/>
-              </div>
-              <div id="dollhouseProjectContainer" className="col s12 m4 l4">
-                <Project href="#modal2" id="modal2" imgSrc={DollhouseBack2} title="THE DOLLHOUSE" modalDescription="Modeled after a turn of the century Victorian home, The Dollhouse was a piece comissioned for and featured at Burning Man 2019. The back side of the home had the illusion of being completely exposed to open playa, but was enclosed with clear acrylic paneling. This allowed citizens of Black Rock City to see the illuminated structure, and the participants within, from afar. There are two stories, each with two rooms, conventional to the Victorian era: ballroom, kitchen, bathroom, and bedroom. Art pieces in the home include photographs and paintings of a family long past, ghostly porcelain dolls, oddities, remnants of a seance gone wrong, an infinity mirror, and window etchings, all of which react to human touch and/or presence. We hoped to create an ethereal world on playa, captivating and enticing people to play and discover more secrets within." imageArray={dollhouseImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Kyma", "MadMapper", "Capacitive Touch Sensors","Servo Motors", "GameTrak", "PPG Heart Sensor", "Relay Modules"]} links={["https://www.youtube.com/watch?v=W9TY_xQfr4Y&t=23s", "https://www.youtube.com/watch?v=FfcdDc0tSdU"]}/>
-                <br/>
-
-                <button className="btn-large hoverable">
-                  <Link
-                    id="dollhouseProject"
-                    to="/interactiveart"
-                    className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
-                  >
-                    ALL INTERACTIVE ART
-                  </Link>
-                </button>
-                <br/>
-              </div>
-
-              <div id="bezierProjectContainer" className="col s12 m4 l4">
-                <Project href="#modal3" id="modal3" imgSrc={House} title="BEZIER DATA VISUALIZATION" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
-                <br/>
-                
-                <button className="btn-large hoverable">
-                  <Link
-                  id="bezierProject"
-                  to="/processing"
-                  className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
-                  >
-                    ALL PROCESSING(JAVA)
-                  </Link>
-                </button>
-              </div>
+              <button className="btn-large hoverable">
+                <Link
+                  id="alertifyProject"
+                  to="/webdevelopment"
+                  className={window.location.pathname === "/webdevelopment" ? "nav-link active" : "nav-link"}
+                >
+                  ALL WEB DEVELOPEMENT
+                </Link>
+              </button>
               <br/>
             </div>
-            <div className="row">
-              
+            <div id="dollhouseProjectContainer" className="col s12 m4 l4">
+              <Project href="#modal2" id="modal2" imgSrc={DollhouseBack2} title="THE DOLLHOUSE" modalDescription="Modeled after a turn of the century Victorian home, The Dollhouse was a piece comissioned for and featured at Burning Man 2019. The back side of the home had the illusion of being completely exposed to open playa, but was enclosed with clear acrylic paneling. This allowed citizens of Black Rock City to see the illuminated structure, and the participants within, from afar. There are two stories, each with two rooms, conventional to the Victorian era: ballroom, kitchen, bathroom, and bedroom. Art pieces in the home include photographs and paintings of a family long past, ghostly porcelain dolls, oddities, remnants of a seance gone wrong, an infinity mirror, and window etchings, all of which react to human touch and/or presence. We hoped to create an ethereal world on playa, captivating and enticing people to play and discover more secrets within." imageArray={dollhouseImages} tech={["Arduino Uno", "Arduino IDE", "MaxMSP", "Kyma", "MadMapper", "Capacitive Touch Sensors","Servo Motors", "GameTrak", "PPG Heart Sensor", "Relay Modules"]} links={["https://www.youtube.com/watch?v=W9TY_xQfr4Y&t=23s", "https://www.youtube.com/watch?v=FfcdDc0tSdU"]}/>
+              <br/>
+
+              <button className="btn-large hoverable">
+                <Link
+                  id="dollhouseProject"
+                  to="/interactiveart"
+                  className={window.location.pathname === "/interactiveart" ? "nav-link active" : "nav-link"}
+                >
+                  ALL INTERACTIVE ART
+                </Link>
+              </button>
+              <br/>
             </div>
+
+            <div id="bezierProjectContainer" className="col s12 m4 l4">
+              <Project href="#modal3" id="modal3" imgSrc={House} title="BEZIER DATA VISUALIZATION" modalDescription="Bezier Data Visualization uses bezier curves to plot data, using government CSV files from 2017. This sketch allows users to see a visual representation of how often (on a scale of percentage) the members of the Senate and House vote in line with Trump’s position."  imageArray={bezierImages} tech={["Processing"]} links={["https://github.com/thusted/Bezier-Data-Visualization", "https://youtu.be/Pd81FM694fs"]}/>
+              <br/>
+              
+              <button className="btn-large hoverable">
+                <Link
+                id="bezierProject"
+                to="/processing"
+                className={window.location.pathname === "/processing" ? "nav-link active" : "nav-link"}
+                >
+                  ALL PROCESSING(JAVA)
+                </Link>
+              </button>
+            </div>
+            <br/>
+          </div>
         </div>
       </div>
     </div>
